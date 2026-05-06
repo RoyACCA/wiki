@@ -119,6 +119,8 @@ def detect_page_type(content: str, filename: str) -> str:
     content_lower = content.lower()
     if any(kw in content_lower for kw in ['会议', 'meeting', '纪要', '座谈']):
         return 'entity-event'
+    if any(kw in content_lower for kw in ['获批', '入选', '荣获', '通过', '批准', '成立', '荣获', '获颁', '首次']):
+        return 'entity-event'
     if any(kw in content_lower for kw in ['论文', 'paper', 'arxiv', '研究']):
         return 'entity-paper'
     if any(kw in content_lower for kw in ['公司', '企业', '集团', 'inc', 'ltd', 'co']):
