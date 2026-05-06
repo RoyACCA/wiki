@@ -128,28 +128,49 @@ def detect_page_type(content: str, filename: str) -> str:
     return 'concept'
 
 def estimate_confidence(content: str, page_type: str) -> float:
-    """Estimate entity extraction confidence based on content quality."""
+    """Estimate entity extraction confidence based on content quality.
+
+    评分维度：
+    1. 内容长度（越长实体越多）
+    2. 实体关键词密度
+    3. 政策文件特征（有"关于/意见/通知/办法"等格式的正文）
+    4. 新闻报道特征（有发布时间/来源/浏览量元数据的，实体往往明确）
+    """
     score = 0.5
+
     # Length bonus: longer content = more entities detectable
     if len(content) > 1000:
         score += 0.15
     elif len(content) > 500:
         score += 0.1
+    elif len(content) > 200:
+        score += 0.05
+
     # Entity signals in content
     entity_keywords = ['公司', '企业', '集团', '政策', '办法', '规定', '条例',
                        '人工智能', '航空', '民航', '数据', '模型', '系统']
     found = sum(1 for kw in entity_keywords if kw in content)
     score += min(found * 0.03, 0.15)
-    # Page type clarity
+
+    # Page type clarity: event/company/person pages usually have clear facts
     if page_type in ('entity-event', 'entity-company', 'entity-person'):
-        score += 0.1
+        score += 0.15
+
     # Chinese text quality (no garbled chars)
     try:
         chinese_chars = len([c for c in content if '\u4e00' <= c <= '\u9fff'])
         if chinese_chars > 100:
             score += 0.1
+        elif chinese_chars > 50:
+            score += 0.05
     except Exception:
         pass
+
+    # News format bonus: 发布时间/来源/浏览量 = factual reporting
+    # These are event facts, not ambiguous policy analysis
+    news_signals = sum(1 for sig in ['发布时间', '来源：', '浏览量', '作者：'] if sig in content)
+    score += min(news_signals * 0.05, 0.10)
+
     return min(round(score, 2), 0.99)
 
 def extract_summary(content: str) -> str:
