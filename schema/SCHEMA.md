@@ -1,6 +1,7 @@
-# Wiki Schema — LLM Wiki v1.5.9
+# Wiki Schema — LLM Wiki v1.6.0
 
 ## Version
+- **v1.6.0** (2026-05-06): **Fix**: `estimate_confidence()` 去除对元数据字段（发布时间/浏览量）的误扣分；`detect_page_type()` 新增事件关键词（获批/入选/荣获/获颁/首次），避免被"公司"规则误判
 - **v1.5.9** (2026-05-06): **New**: ingest.py 末尾新增 `auto_git_commit()`，入库后自动 git add + commit，触发 post-commit hook；wiki 初始化 git 仓库
 
 ## Domain
@@ -335,6 +336,9 @@ concept-aitransportationimplementation: concept-aitransportpolicy
 ---
 
 # Schema Version
+
+## v1.6.0 (2026-05-06)
+Changes from v1.5.9: `estimate_confidence()` 去除对元数据字段（发布时间/浏览量）的误扣分，短新闻稿不再误入 review；`detect_page_type()` 新增"获批/入选/荣获/获颁/首次"等事件关键词，避免被"公司"规则误判为 entity-company
 
 ## v1.5.7 (2026-05-06)
 Changes from v1.5.6: ingest.py entity/concept wikilinks 生成时，domain names 中的 hyphen 未转 underscore（`low-altitude` → `low_altitude`），导致 lint 报 broken links
