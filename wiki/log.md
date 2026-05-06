@@ -853,3 +853,13 @@
 ## [2026-05-06] lint | 2 issues found
 
 ## [2026-05-06] lint | 0 issues found (auto-fixed: 3)
+
+## [2026-05-06] lint | 1 issues found
+
+## [2026-05-06] lint | 1 issues found
+
+## [2026-05-06] lint | 1 issues found (auto-fixed: 1)
+
+## [2026-05-06] ingest | 1 file(s)
+- raw/docs/c1e49410_central_enterprise_innovation_consortium_expansion_2026.md → wiki/entities/paper/422c4a10_2026central-enterprise-tech-innovation.md
+- 《央企创新联合体如何"扩围"又"提质"》，马大明/刘卓，国资报告2026年第4期，confidence=0.84→review→雷哥确认接受→移出review→index更新

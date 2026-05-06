@@ -103,7 +103,7 @@ created: 2026-05-06
 ## Related
 - Sources: [[../raw/docs/422c4a10_2026central-enterprise-tech-innovation.md]]
 
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance
