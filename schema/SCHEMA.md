@@ -1,7 +1,7 @@
-# Wiki Schema — LLM Wiki v1.5.8
+# Wiki Schema — LLM Wiki v1.5.9
 
 ## Version
-- **v1.5.8** (2026-05-06): **New**: `scripts/qa.py`（版本同步 + lint 双重检查），替换 Step 8.5 原有 `lint --dry-run`；新增 `.git/hooks/post-commit` 自动 QA
+- **v1.5.9** (2026-05-06): **New**: ingest.py 末尾新增 `auto_git_commit()`，入库后自动 git add + commit，触发 post-commit hook；wiki 初始化 git 仓库
 
 ## Domain
 

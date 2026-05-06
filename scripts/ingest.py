@@ -15,6 +15,7 @@ import json
 import os
 import re
 import shutil
+import subprocess
 import sys
 import uuid
 from datetime import datetime
@@ -777,6 +778,42 @@ def scan_temp() -> dict:
                           "ext": os.path.splitext(f)[1].lower()})
     return {"files": files, "count": len(files)}
 
+
+def auto_git_commit(wiki_path: str, ingest_count: int) -> dict:
+    """
+    自动 git add + commit（触发 post-commit hook QA）。
+    仅在有变更时 commit。
+    """
+    try:
+        # Check if there are changes
+        result = subprocess.run(
+            ['git', 'status', '--porcelain'],
+            cwd=wiki_path,
+            capture_output=True, text=True, timeout=30
+        )
+        if not result.stdout.strip():
+            return {"status": "no_changes", "message": "无变更，跳过 commit"}
+
+        # git add .
+        subprocess.run(['git', 'add', '.'], cwd=wiki_path, capture_output=True, timeout=30)
+
+        # git commit with message
+        today = datetime.now().strftime('%Y-%m-%d')
+        msg = f"ingest: {ingest_count} file(s) ({today})"
+        result = subprocess.run(
+            ['git', 'commit', '-m', msg],
+            cwd=wiki_path,
+            capture_output=True, text=True, timeout=30
+        )
+
+        if result.returncode == 0:
+            return {"status": "committed", "message": msg}
+        else:
+            return {"status": "error", "message": result.stderr}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
+
+
 def main():
     parser = argparse.ArgumentParser(description='LLM Wiki Ingest Pipeline')
     parser.add_argument('--file', action='append', help='File to ingest')
@@ -808,6 +845,11 @@ def main():
         output["notifications"] = all_notifications
 
     print(json.dumps(output, ensure_ascii=False, indent=2))
+
+    # 自动 git commit（触发 post-commit hook QA）
+    ingest_count = len([r for r in results if r.get('status') == 'success'])
+    commit_result = auto_git_commit(args.wiki_path, ingest_count)
+    print(f"\n[git] {commit_result['message']}")
 
 if __name__ == '__main__':
     main()
