@@ -162,7 +162,7 @@ claims: [{"id": "ca6d38b0c", "text": "— 1 —\n航信集团发〔2025〕184 �
 - Concepts: [[concept_low_altitude_economy]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_future_industry]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ca6d38b0c

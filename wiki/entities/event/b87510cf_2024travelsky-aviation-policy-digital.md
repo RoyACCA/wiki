@@ -30,7 +30,7 @@ claims: [{"id": "c90986f16", "text": "中国航信入选2024北京市数字经�
 
 ## Related
 - Sources: [[../raw/docs/b87510cf_2024travelsky-aviation-policy-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_digital]]

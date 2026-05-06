@@ -36,10 +36,10 @@ claims: [{"id": "cee9f45f3", "text": "中国航信携多项科技成果亮相第
 
 ## Related
 - Sources: [[../raw/docs/71c807c2_2025travelsky-caac-llm-aviation-ai-low-altitude.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]

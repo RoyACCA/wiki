@@ -84,7 +84,7 @@ claims: [{"id": "c88db5c78", "text": "航信集团办发〔2026〕2号《中国�
 - Entities: [[entity_sasac]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 
