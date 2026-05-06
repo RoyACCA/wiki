@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-06 | Total pages: 92
+> Last updated: 2026-05-06 | Total pages: 96
 
 ## Entities
 
@@ -31,6 +31,7 @@
 | [[entity_caac]] | 中国民用航空局（CAAC），国务院部委管理国家局，本政策联合发布单位 |
 | [[entity_sasac]] | 国资委，国务院特设机构，履行出资人职责，监管央企国有资产 |
 | [[entity_miit]] | 工信部，国务院组成部门，负责工业和信息化管理 |
+| [[1ed2cf34_2025travelsky-jiaolei-aviation-ai-digital]] | 中国航信获批成为全国信息技术标准化技术委员会人才培养标准工作组成员单位（2025年6月） |
 
 ### paper
 
@@ -44,7 +45,8 @@
 | [[fac98eca_2026travelsky-sasac-aviation-policy-ai]] | 于博2026-02-06讲话：统筹集团管控、笃行科技赋能，安全筑基护航航信十五五新征程 |
 | [[47237ec6_20260227_travelsky-mar-aviation-retailing]] | IATA MAR趋势研究与PSS系统改造建议，江波2026年2月27日批示，加快213工程 |
 | [[1489abc4_20260210_travelsky-retail-transformation-oosd-settlement]] | 零售化转型及OOSD下结算业务分析，结算公司2026年2月10日，支付清结算一体化建议 |
-| [[89a27ab9_2025travelsky_strategic_emerging_industry_implementation]] | 航信集团发〔2025〕184号《中国民航信息集团有限公司战略性新兴产业实施办法》，2025年11月10日发布，明确战新产业"9+6"重点领域（行业关键软件/AI/低空经济/未来网络等），建立领导小组-科技管理部-任务单位三级管理体系，任务纳入年度绩效考核 |
+|| [[89a27ab9_2025travelsky_strategic_emerging_industry_implementation]] | 航信集团发〔2025〕184号《中国民航信息集团有限公司战略性新兴产业实施办法》，2025年11月10日发布，明确战新产业"9+6"重点领域（行业关键软件/AI/低空经济/未来网络等），建立领导小组-科技管理部-任务单位三级管理体系，任务纳入年度绩效考核 |
+|| [[855cc8b6_2024travelsky-aviation-policy-digital]] | 中国航信荣获中央企业先进计算创新联合体"2024年度创新成果奖"，"中国民航电子商务数字化平台自主可控技术研究与示范应用"项目获奖 |
 
 ### event
 
@@ -66,7 +68,9 @@
 | [[a1cecc3a_2025aviation-policy-ai]] | 江波2025-12-01讲话：建设团结有力的领导班子，打造世界一流服务企业 |
 | [[7da6bd89_2025travelsky-ai-llm-aviation-policy]] | 航信股份安发〔2025〕26号：互联网信息服务算法及生成式人工智能安全管理办法 |
 | [[410dfc9d_2026travelsky-sasac-aviation-policy-central-enterprise]] | 航信集团发〔2026〕105号：负责人履职待遇、业务支出管理实施细则（修订版） |
-| [[3c3dec3f_2026travelsky-sasac-aviation-policy-central-enterprise]] | 航信集团发〔2026〕78号：中国民航信息集团有限公司章程 |
+|| [[3c3dec3f_2026travelsky-sasac-aviation-policy-central-enterprise]] | 航信集团发〔2026〕78号：中国民航信息集团有限公司章程 |
+|| [[b87510cf_2024travelsky-aviation-policy-digital]] | 中国航信入选2024北京市数字经济标杆百家企业名单（2025年7月2日中关村发布） |
+|| [[71c807c2_2025travelsky-caac-llm-aviation-ai-low-altitude]] | 中国航信携多项科技成果亮相第三届民航科创展，展出LLM、低空经济、AI等技术成果 |
 
 ## Concepts
 
