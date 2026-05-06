@@ -32,9 +32,9 @@ claims: [{"id": "ceca1ae0f", "text": "中国航信获批成为全国信标委人
 
 ## Related
 - Sources: [[../raw/docs/1ed2cf34_2025travelsky-jiaolei-aviation-ai-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_jiaolei]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[person_jiaolei]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]
