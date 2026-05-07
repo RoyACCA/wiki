@@ -970,3 +970,19 @@
   - 千穰数据集是千穰大模型的训练数据底座
 
 ## [2026-05-07] lint | 11 issues found
+
+## [2026-05-07] ingest | 智慧民航数智化新型应用+千穰大模型API数据更新
+- Source: AI环信平台页面抓取
+  - 智慧民航数智化新型应用: https://aihuanxin.cn/#/portal/benchmarkdetail?id=21
+  - 千穰大模型: https://aihuanxin.cn/qdlake/qdh-web/#/model/detail/travelsky/Qianrang/type=org
+- Raw: raw/docs/concept_qianrang_large_model_api_raw.md
+- Updated: concept_qianrang_large_model (更新评测指标: C-Eval 91.02/CMMLU 89.98; 服务机构20+→40+)
+- New: event_2025travelsky-zhineng-civil-aviation (智慧民航典型案例，含建设背景/技术特点/成效/展望)
+- index: 总页数127→129
+- Critical conflict found: 智慧民航页面声称千穰为"双备案"，AI环信API仅显示单备案
+  - Resolution: 以API数据为准，千穰为单备案；矛盾写入conflicts字段待雷哥确认
+- lint: 待验证
+
+## [2026-05-07] lint | 4 issues found
+
+## [2026-05-07] lint | 4 issues found

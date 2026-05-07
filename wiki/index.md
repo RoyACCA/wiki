@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 127 |
+| Last updated: 2026-05-07 | Total pages: 129 |
 
 ## Entities
 
@@ -155,7 +155,7 @@
 || [[concept_digital]] | 数字化，将物理世界信息转化为数字形式的过程，信息技术发展核心趋势 |
 || [[concept_travelsky_business_travel_approval_policy_2026]] | 航信集团办发〔2026〕2号《中国航信外出审批管理规定》，2026年4月15日发布，适用于公司各级领导干部及员工，明确离开驻地办公区域半天以上的外出审批程序。 |
 || [[concept_hanglv_chain_blockchain]] | 航旅链区块链平台：2022年发布，民航业自主可控区块链技术底座，获中国交通运输协会科技进步二等奖、中国科技产业化促进会科技一等奖，入选数字交通典型案例，现归口智能安全业务部 |
-| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2023年8月发布，2024年7月网信办生成式AI服务备案（序号168，第四个央企备案大模型），参数规模1000亿+，非双备案。已落地智能客服、机坪监控、航班预测等20+民航机构 |
+| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2023年8月发布，2024年7月网信办生成式AI服务备案（序号168，第四个央企备案大模型），参数规模1000亿+，非双备案。已落地智能客服、机坪监控、航班预测等场景，服务40+民航机构（C-Eval 91.02/CMMLU 89.98） |
 | [[concept_qianrang_high_quality_civil_aviation_dataset]] | 千穰民航高质量数据集：中航信构建，数据量200TB+，覆盖旅客/航班/航线等民航全要素，支持视觉算法/3D重建/多模态训练/语音识别等场景 |
 | [[concept_qihang_large_model]] | 启航大模型：中航信团队研发，参数规模30B-80B，2025年7月18日发布于AI环信平台，双备案（生成式AI服务+深度合成算法），适配国产算力，访问量132次 |
 || [[concept_gongxiangruixing_large_model]] | 共翔睿行大模型：航空数字化产品事业部研发，2025年12月31日大模型备案+2025年11月算法备案，完成"双备案" |
@@ -200,6 +200,7 @@
 ||| [[event_2025_gongxiangruixing_double_filing]] | 共翔睿行大模型通过国家算法和大模型双备案（2025年12月31日大模型+2025年11月算法） |
 ||| [[event_2025_qingdao_baggage_robot_deployment]] | 机场行李全向叉取智能机器人在青岛胶东国际机场W13转盘部署（2025年8月8日媒体开放日） |
 | [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
+|| [[event_2025travelsky-zhineng-civil-aviation]] | 智慧民航数智化新型应用：国资委AI环信典型案例（ID=21，2025-10-15），以千穰大模型为核心，含建设背景/技术特点/应用成效/未来展望；千穰"双备案"表述与API数据矛盾，以API为准（单备案） |
 | [[event_2025travelsky-central-enterprise-ai-scenario]] | 国资委首批战略性高价值场景申报材料：含国产化民航大模型（千穰）、机场行李智能搬运系统、民航舱音识别三个场景，申报名"国产化民航大模型"终审改"智慧民航数智化新型应用" |
 | [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
 ||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
