@@ -1,14 +1,20 @@
 ---
 id: {id}
-title: "Query: {topic}"
 created: {YYYY-MM-DD}
+updated: {YYYY-MM-DD}
 type: query
+title: "Query: {topic}"
 source: conversation
 domain: [{domain}]
 tags: [query, {domain}]
-summary: "{一句话概括本次问答的核心价值}"
 confidence: 1.0
+summary: "{一句话概括本次问答的核心价值}"
+conflicts: []
+versions: []
+claims: []
 ---
+
+# Query: {topic}
 
 ## 原始问题
 
@@ -20,10 +26,7 @@ confidence: 1.0
 
 ## 知识点来源
 
-- [[wiki/entities/person/person_xxx]]
-- [[wiki/entities/company/company_xxx]]
-- [[wiki/concepts/concept_xxx]]
-- [[wiki/concepts/concept_xxx]]
+{关联的 wiki/ 页面}
 
 ## 沉淀原因
 

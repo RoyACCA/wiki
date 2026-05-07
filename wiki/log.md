@@ -1139,3 +1139,24 @@
 ## [2026-05-07] lint | 1003 issues found
 
 ## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 23 issues found
+
+## [2026-05-07] update | Format standardization v1.8.0 — 全链条格式固化
+- **ingest.py**: Provenance单行格式（`> [!source]| c001: text`）；domain/tags YAML list格式化（无引号）；conflicts/versions YAML list格式化
+- **全部6个TEMPLATE**（entity-event/company/person/paper/concept/comparison/query）: 统一domain/tags格式、新增title字段、claims/versions/conflicts空列表初始化、Provenance格式统一
+- **lint.py**: events/目录豁免orphan检查
+- **qa.py**（新增）: 版本同步+lint双重QA卡点工具，替代原Step 8.5
+- **SKILL.md/SCHEMA.md**: v1.7.1 → v1.8.0 同步更新（双生子规则）
+
+## [2026-05-07] lint | 999 issues found
+
+## [2026-05-07] lint | 999 issues found
+
+## [2026-05-07] lint | 904 issues found
+
+## [2026-05-07] lint | 904 issues found
+
+## [2026-05-07] lint | 904 issues found
+
+## [2026-05-07] lint | 904 issues found

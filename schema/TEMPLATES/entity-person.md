@@ -3,13 +3,15 @@ id: {id}
 created: {created}
 updated: {updated}
 type: entity-person
+title: "{name}"
 source: raw/{source}
 domain: [{domain}]
-tags: ["person", {domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
 # {name}
@@ -18,14 +20,14 @@ versions: []
 {summary}
 
 ## Details
-<!-- Details about this person -->
+{content}
 
-## Professional Background
-- Current: {current_role}
-- Previous: {previous_roles}
-- Domain: {domain_tags}
+## Basic Info
+- Name: {name}
+- Title: {title}
+- Organization: {organization}
 
 ## Related
 - Sources: [[../raw/{source}]]
-- Companies: [[company_travelsky]]
-- Concepts: [[concept_ai_policy]]
+{related_entities}
+{related_concepts}

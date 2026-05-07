@@ -3,13 +3,15 @@ id: {id}
 created: {created}
 updated: {updated}
 type: entity-paper
+title: "{title}"
 source: raw/{source}
 domain: [{domain}]
-tags: ["paper", {domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
 # {title}
@@ -18,12 +20,12 @@ versions: []
 {summary}
 
 ## Details
-<!-- Paper details: authors, publication, key findings -->
-
-## Key Contributions
--
+{content}
 
 ## Related
 - Sources: [[../raw/{source}]]
-- Concepts: [[concept_ai_policy]]
-- Related Papers: [[paper_llm_wiki_2026]]
+{related_entities}
+{related_concepts}
+
+## Provenance
+> [!source]| {claim_id}: {claim_text}

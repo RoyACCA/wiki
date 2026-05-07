@@ -3,13 +3,15 @@ id: {id}
 created: {created}
 updated: {updated}
 type: comparison
+title: "{title}"
 source: raw/{source}
 domain: [{domain}]
-tags: ["comparison", {domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
 # {title}
@@ -20,14 +22,13 @@ versions: []
 ## Comparison Dimensions
 
 | Dimension | {a} | {b} |
-|---|---|---|
-| Feature 1 | | |
-| Feature 2 | | |
-| Feature 3 | | |
+|-----------|-----|-----|
+| | | |
 
-## Verdict
-<!-- Synthesis and recommendation -->
+## Analysis
+{analysis}
 
 ## Related
 - Sources: [[../raw/{source}]]
-- Entities: [[entity_a]], [[entity_b]]
+{related_entities}
+{related_concepts}

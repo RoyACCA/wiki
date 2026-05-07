@@ -3,13 +3,15 @@ id: {id}
 created: {created}
 updated: {updated}
 type: concept
+title: "{title}"
 source: raw/{source}
 domain: [{domain}]
-tags: [{domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
 # {title}
@@ -18,15 +20,15 @@ versions: []
 {summary}
 
 ## Definition
-<!-- Clear definition of the concept -->
+{definition}
 
-## Key Points
--
-
-## Current State
-<!-- Current understanding, debates, open questions -->
+## Details
+{content}
 
 ## Related
 - Sources: [[../raw/{source}]]
-- Entities: [[company_travelsky]]
-- Concepts: [[concept_ai_policy]]
+{related_entities}
+{related_concepts}
+
+## Provenance
+> [!source]| {claim_id}: {claim_text}

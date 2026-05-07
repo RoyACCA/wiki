@@ -3,13 +3,15 @@ id: {id}
 created: {created}
 updated: {updated}
 type: entity-company
+title: "{name}"
 source: raw/{source}
 domain: [{domain}]
-tags: ["company", {domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
 # {name}
@@ -18,14 +20,14 @@ versions: []
 {summary}
 
 ## Details
-<!-- Details about this company -->
+{content}
 
 ## Basic Info
 - Full name: {full_name}
 - Industry: {industry}
-- Domain: {domain_tags}
+- Domain: [{domain}]
 
 ## Related
 - Sources: [[../raw/{source}]]
-- People: [[person_jiaolei]]
-- Concepts: [[concept_ai_policy]]
+{related_entities}
+{related_concepts}

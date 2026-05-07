@@ -3,27 +3,29 @@ id: {id}
 created: {created}
 updated: {updated}
 type: entity-event
+title: "{title}"
 source: raw/{source}
 domain: [{domain}]
-tags: ["event", {domain}]
+tags: [{tags}]
 confidence: {confidence}
 summary: "{summary}"
 conflicts: []
 versions: []
+claims: []
 ---
 
-# {name}
+# {title}
 
 ## Summary
 {summary}
 
 ## Details
-<!-- Event details: date, location, participants, key outcomes -->
-
-## Key Outcomes
--
+{content}
 
 ## Related
 - Sources: [[../raw/{source}]]
-- People: [[person_jiaolei]]
-- Concepts: [[concept_ai_policy]]
+{related_entities}
+{related_concepts}
+
+## Provenance
+> [!source]| {claim_id}: {claim_text}
