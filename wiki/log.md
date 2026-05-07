@@ -863,3 +863,26 @@
 ## [2026-05-06] ingest | 1 file(s)
 - raw/docs/c1e49410_central_enterprise_innovation_consortium_expansion_2026.md → wiki/entities/paper/422c4a10_2026central-enterprise-tech-innovation.md
 - 《央企创新联合体如何"扩围"又"提质"》，马大明/刘卓，国资报告2026年第4期，confidence=0.84→review→雷哥确认接受→移出review→index更新
+
+## [2026-05-07] lint | 62 issues found
+
+## [2026-05-07] lint | 51 issues found
+
+## [2026-05-07] ingest | 50 files batch (44 success, 3 exact-dedup skip, 3 review-needed)
+- Temp: 50 .txt files from /home/agentuser/temp/
+- Dedup: 3 exact duplicates skipped (travelsky digital economy list, CAAC sci-tech innovation expo, SASAC innovation award)
+- Review-needed (confidence <0.9): af412855 (应用运维与监控系统), 8ee47b17 (国航数字化签派放行), 3a8d5223 (行李机器人亮相)
+- Event pages created: 35 new + 7 migrated from company (entity_industry_llm→entity_llm broken link fixed)
+- Company pages: 8 new (including 7 that should be event — migrated to event/ dir, type updated)
+- Paper pages: 1 new
+- index.md updated: 42 event entries added, 7 company entries removed (migrated), 1 company entry added, 1 paper entry added
+- _redirects.yaml updated: entity_industry_llm→entity_llm + 7 company→event redirects
+- Total wiki pages: 96→138 (estimate)
+- QA: lint --dry-run after fixes (0 HIGH issues)
+
+## [2026-05-07] lint | 0 HIGH issues
+- 4 broken wikilinks (entity_industry_llm) fixed → entity_llm
+- 7 company pages migrated to event/ (type: entity-company → entity-event)
+- 3 review pages remain in wiki/review/ (pending Lei Ge confirmation)
+
+## [2026-05-07] lint | 8 issues found

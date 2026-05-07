@@ -11,3 +11,12 @@ entity_ai: concept_ai
 entity_llm: concept_llm
 entity_low_altitude_economy: concept_low_altitude_economy
 entity_new_quality_productivity: concept_new_quality_productivity
+# 2026-05-07: company → event 迁移
+entity_industry_llm: entity_llm
+23dcada7_2025aviation-digital: entities/event/23dcada7_2025aviation-digital
+6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital: entities/event/6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital
+0b4513f1_2025travelsky-aviation-digital: entities/event/0b4513f1_2025travelsky-aviation-digital
+4adf2afe_2025travelsky-aviation-digital: entities/event/4adf2afe_2025travelsky-aviation-digital
+861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital: entities/event/861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital
+16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital: entities/event/16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital
+e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai: entities/event/e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai
