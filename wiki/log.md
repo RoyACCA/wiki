@@ -922,3 +922,18 @@
 ## [2026-05-07] lint | 7 issues found
 
 ## [2026-05-07] lint | 7 issues found
+
+## [2026-05-07] ingest | 中国航信人工智能应用案例汇编（第一期）27章节入库
+- Source: raw/papers/cf5d5705_2025travelsky_ai_cases_volume1.pdf (231页)
+- Raw: raw/docs/ 27个.txt（按章节拆分）
+- Event pages: ch01-ch27，slug已修复（scripts/rename_ai_cases.py）
+- Entity: entity_ndrc.md（新增发改委）
+- Index: 27 event + 1 entity，total pages 96→125
+- Note: PDF图表页文字量少属正常，文本密度31%
+
+## [2026-05-07] update | llm-wiki v1.7.0 版本同步
+- SKILL.md: v1.6.0 → v1.7.0，changelog 新增 v1.7.0 条目
+- SCHEMA.md: v1.6.0 → v1.7.0，changelog 新增 v1.7.0 条目
+- 新增脚本入档: split_pdf_chapters.py、rename_ai_cases.py、batch_ingest.py
+- Scripts Reference 表格已更新
+|
