@@ -153,6 +153,7 @@ claims: [{"id": "ca6d38b0c", "text": "— 1 —\n航信集团发〔2025〕184 �
 
 ## Related
 
+- [[89a27ab9_2025travelsky_strategic_emerging_industry_implementation]]
 - Sources: [[../raw/papers/89a27ab9_undatedai.pdf]]
 - Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]

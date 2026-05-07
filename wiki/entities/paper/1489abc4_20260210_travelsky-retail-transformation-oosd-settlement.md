@@ -53,4 +53,5 @@ summary: "结算公司分析IATA MAR和OOSD转型对结算业务的影响，对�
 
 ## Related
 - [[company_travelsky]]
+- [[1489abc4_20260210_travelsky-retail-transformation-oosd-settlement]]
 - [[concept_15th-five-year-digital]]

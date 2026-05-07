@@ -167,6 +167,10 @@ def main():
             doc = Document(file_path)
             for para in doc.paragraphs[:20]:
                 content_preview += para.text + '\n'
+        elif ext == '':
+            # Extensionless text files (e.g., Chinese news dumps)
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                content_preview = f.read(2000)
         else:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 content_preview = f.read(500)

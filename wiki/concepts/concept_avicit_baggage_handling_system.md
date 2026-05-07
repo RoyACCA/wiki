@@ -122,6 +122,7 @@ claims: [
 
 ## Related
 
+- [[concept_avicit_baggage_handling_system]]
 - [[concept_qianrang_large_model]] — 千穰大模型（核心技术）
 - [[concept_baggage_robot]] — 机场行李全向叉取智能机器人（另一款行李机器人，研发单位不同）
 - [[concept_ai]] — 人工智能

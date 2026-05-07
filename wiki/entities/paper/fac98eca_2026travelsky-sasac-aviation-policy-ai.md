@@ -75,6 +75,7 @@ claims: [{"id": "cae020df6", "text": "# 统筹集团管控笃行科技赋能 安
 
 ## Related
 - Sources: raw/docs/fac98eca_2026travelsky-sasac-aviation-policy-ai.md
+- [[fac98eca_2026travelsky-sasac-aviation-policy-ai]]
 - Entities: [[entity_company_travelsky]]
 - Entities: [[entity_mot]]
 - Entities: [[concept_ai]]

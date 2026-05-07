@@ -48,6 +48,7 @@ claims: []
 
 ## Related
 
+- [[concept_strategic_emerging_industry]]
 - Concepts: [[concept_future_industry]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]

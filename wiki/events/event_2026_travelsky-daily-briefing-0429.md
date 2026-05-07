@@ -6,7 +6,7 @@ type: event
 title: "航信专报第78期（2026-04-29）"
 source: raw/docs/4f1a5e43_2026-travelsky-daily-briefing-0429.docx
 domain: [aviation, policy, ai, central-enterprise]
-tags: [entity-travelsky, event-daily-report, macro, civil-aviation, low-altitude, digital-economy]
+tags: [event, aviation, policy, ai, central-enterprise, digital]
 confidence: 0.95
 summary: "2026年4月29日第78期航信专报，汇总中央政治局会议、商务部服务出口、国资央企重组、民航客座率、燃油费涨价、东航候补服务、杭州深圳快线、工信部AI+软件、模数共振行动等9条重点资讯。"
 conflicts: []

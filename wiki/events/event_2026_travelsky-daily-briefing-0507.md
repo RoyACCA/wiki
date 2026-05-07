@@ -6,7 +6,7 @@ type: event
 title: "航信专报第81期（2026-05-07）"
 source: raw/docs/f54ec5bb_2026-travelsky-daily-briefing-0507.docx
 domain: [aviation, policy, ai, central-enterprise]
-tags: [entity-travelsky, event-daily-report, macro, civil-aviation, low-altitude, international]
+tags: [event, aviation, policy, ai, central-enterprise]
 confidence: 0.95
 summary: "2026年5月7日第81期航信专报，汇总五一假期消费、民航、交通、出入境等要闻，涵盖国资委数字化转型分论坛、韩国航司获中国航权、AI超售纠纷等9条重点资讯。"
 conflicts: []

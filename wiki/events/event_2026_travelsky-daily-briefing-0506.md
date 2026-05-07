@@ -2,8 +2,12 @@
 type: event
 title: 航信专报第80期（2026-05-06）
 date: 2026-05-06
+created: 2026-05-06
+updated: 2026-05-06
+tags: [event]
 confidence: 0.95
 domain: [aviation, policy, ai, central-enterprise]
+---
 source: ylm@travelsky.com.cn
 attachment: a4f536c8_2026-travelsky-daily-briefing-0506.docx
 claims:

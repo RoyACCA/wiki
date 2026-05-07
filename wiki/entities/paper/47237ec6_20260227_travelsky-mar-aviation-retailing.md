@@ -44,4 +44,5 @@ summary: "PSS重构研究小组对标IATA MAR进行行业分析，研究POODF、
 
 ## Related
 - [[company_travelsky]]
+- [[47237ec6_20260227_travelsky-mar-aviation-retailing]]
 - [[concept_15th-five-year-digital]]

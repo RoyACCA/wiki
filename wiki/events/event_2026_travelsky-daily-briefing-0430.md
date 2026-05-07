@@ -2,8 +2,11 @@
 type: event
 title: 航信专报第79期（2026-04-30）
 date: 2026-04-30
+created: 2026-04-30
+updated: 2026-04-30
+tags: [event]
 confidence: 0.95
-domain: [aviation, policy, ai, central-enterprise]
+---
 source: ylm@travelsky.com.cn
 attachment: 28fb1a32_2026-travelsky-daily-briefing-0430.docx
 ---

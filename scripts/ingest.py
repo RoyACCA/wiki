@@ -108,6 +108,11 @@ def extract_content(file_path: str) -> tuple[str, dict]:
                     text += page.get_text()
                 doc.close()
                 meta['method'] = 'fitz'
+        elif ext == '':
+            # Extensionless text files (e.g., Chinese news dumps from travelsky.com)
+            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                text = f.read()
+            meta['method'] = 'direct'
         else:
             meta['method'] = 'unsupported'
     except Exception as e:

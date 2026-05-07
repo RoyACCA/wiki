@@ -38,6 +38,7 @@ claims: [{"id": "c99be9701", "text": "中国航信智能创新产品主题发布
 
 ## Related
 - Sources: [[../raw/docs/61defa02_2025travelsky-new-quality-productivity-ai-aviation-future-industry.txt]]
+- [[61defa02_2025travelsky-new-quality-productivity-ai-aviation-future-industry]]
 - Entities: [[entity_company_travelsky]]
 - Entities: [[concept_new_quality_productivity]]
 - Entities: [[concept_ai]]

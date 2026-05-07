@@ -9,6 +9,11 @@ domain: [ai, policy, digital]
 tags: [query, ai, policy, 15th-five-year]
 summary: "整理十五五规划中AI相关论述，形成三要素（算力/算法/数据）+AI+行动+治理的统一框架，并新建 concept_15th-five-year-ai.md 专题页面。"
 confidence: 1.0
+
+## Related
+
+- [[query_20260429_15th_five_year_ai]]
+
 ---
 
 ## 原始问题

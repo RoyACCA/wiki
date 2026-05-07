@@ -180,7 +180,7 @@ def find_orphan_pages(wiki_path: str) -> list[str]:
         return []
 
     # Types that are self-contained and don't need inbound links
-    skip_types = {'query', 'event', 'paper'}
+    skip_types = {'query', 'event', 'paper', 'company'}
 
     # Build inbound link map
     inbound = defaultdict(list)

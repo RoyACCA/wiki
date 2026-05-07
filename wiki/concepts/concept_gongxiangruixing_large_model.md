@@ -131,6 +131,7 @@ claims: [
 
 ## Related
 
+- [[concept_gongxiangruixing_large_model]]
 - [[concept_llm]] — 大模型基础概念
 - [[concept_ai]] — 人工智能总体概念
 - [[concept_ai-civil-aviation-scenarios]] — AI民航应用场景

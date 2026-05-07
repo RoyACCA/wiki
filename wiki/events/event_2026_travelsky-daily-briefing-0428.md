@@ -6,7 +6,7 @@ created: 2026-05-07
 updated: 2026-05-07
 confidence: 0.95
 domain: [aviation, policy, ai, central-enterprise]
-tags: [daily-report, macro, aviation, digital]
+tags: [event, aviation, policy, ai, central-enterprise]
 claims:
   - claim: "五一"消费周期间各地将发放超2.84亿元消费券
     category: macro

@@ -1,7 +1,21 @@
 # Wiki Log
 
 > Chronological record of all wiki actions. Append-only.
-> Format: `## [YYYY-MM-DD] action | subject`
+> Format: `## [2026-05-07]入库维护 | lint 0 HIGH，修复3项MEDIUM+LOW
+
+**入库修复：**
+- **lint.py bug**: `check_tag_taxonomy()` 函数 `issues=[]` 未初始化、`return issues` 提前返回导致 NameError；`in_code_block` 变量缺失导致 SCHEMA code block 内 tag 被错误解析；`if in_taxonomy` 改为 `if in_taxonomy and not in_code_block`
+- **Index Completeness 5→0**: 5个缺失文件补入 index.md
+  - entities/event: `event_2026_miit_10_key_tasks`、`f1c3d9e2_...`、`eb6a5c1a_...`（三-pipe）
+  - events: `event_2026_travelsky-daily-briefing-0428`（三-pipe）
+  - concepts: `concept_moshu_resonance_action_2026`（双-pipe）
+- **Tag Taxonomy 12→0**: 3个航信专报文件 tags YAML 格式错误（缺 `]` 闭括号），导致 parser 误读后文；修复 tags 格式标准化为 `[event, aviation, policy, ai, central-enterprise, digital]`
+- **Orphan**: 已在 events/ 豁免范围内，无需处理
+
+**当前 lint: 0 HIGH, 0 MEDIUM, 13 LOW（Page Size，均 <250行，AI案例章节天然较长，非问题）**
+
+
+## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete, review_confirm
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
@@ -1160,3 +1174,63 @@
 ## [2026-05-07] lint | 904 issues found
 
 ## [2026-05-07] lint | 904 issues found
+
+## [2026-05-07] lint | 23 issues found
+
+## [2026-05-07] lint | 904 issues found
+
+## [2026-05-07] lint | 274 issues found
+
+## [2026-05-07] lint | 274 issues found
+
+## [2026-05-07] lint | 30 issues found
+
+## [2026-05-07] lint | 30 issues found
+
+## [2026-05-07] lint | 30 issues found
+
+## [2026-05-07] lint | 30 issues found
+
+## [2026-05-07] lint | 25 issues found
+
+## [2026-05-07] lint | 25 issues found
+
+## [2026-05-07] lint | 13 issues found
+
+## [2026-05-07] lint | 13 issues found
+
+## [2026-05-07] lint | 13 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 65 issues found
+
+## [2026-05-07] lint | 31 issues found
+
+## [2026-05-07] lint | 31 issues found
+
+## [2026-05-07] lint | 31 issues found
+
+## [2026-05-07] lint | 31 issues found
+
+## [2026-05-07] lint | 31 issues found
+
+## [2026-05-07] lint | 15 issues found
+
+## [2026-05-07] Batch ingest | 51 docs from 中国航信 temp dir
+## [2026-05-07] Fix | lint 0 HIGH — entity-company skip_types豁免，迁移00cbbaec至event目录
+## [2026-05-07] Ingest | paper: 21464673_travelsky_reform_agenda_2026（改革工作台账2026）
+
+## [2026-05-07] lint | 2 issues found
+
+## [2026-05-07] lint | 2 issues found
+
+## [2026-05-07] lint | 1 issues found

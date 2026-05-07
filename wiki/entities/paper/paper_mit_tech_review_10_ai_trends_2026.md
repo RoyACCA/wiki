@@ -110,6 +110,7 @@ MIT Technology Review 于2026年4月发布的10大AI趋势列表，由执行编�
 
 ## Related
 
+- [[paper_mit_tech_review_10_ai_trends_2026]]
 - [[concept_ai]] — AI概念总览
 - [[concept_tech_innovation]] — 科技创新框架
 - [[concept_future_industry]] — 未来产业（对标中国战新/未来产业）

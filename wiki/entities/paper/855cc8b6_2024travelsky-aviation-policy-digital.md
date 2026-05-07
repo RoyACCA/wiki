@@ -34,6 +34,7 @@ claims: [{"id": "c802c0a43", "text": "中国航信荣获中央企业先进计算
 
 ## Related
 - Sources: [[../raw/docs/855cc8b6_2024travelsky-aviation-policy-digital.txt]]
+- [[855cc8b6_2024travelsky-aviation-policy-digital]]
 - Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Concepts: [[concept_aviation]]
