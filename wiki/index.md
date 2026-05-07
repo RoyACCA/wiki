@@ -155,7 +155,7 @@
 || [[concept_digital]] | 数字化，将物理世界信息转化为数字形式的过程，信息技术发展核心趋势 |
 || [[concept_travelsky_business_travel_approval_policy_2026]] | 航信集团办发〔2026〕2号《中国航信外出审批管理规定》，2026年4月15日发布，适用于公司各级领导干部及员工，明确离开驻地办公区域半天以上的外出审批程序。 |
 || [[concept_hanglv_chain_blockchain]] | 航旅链区块链平台：2022年发布，民航业自主可控区块链技术底座，获中国交通运输协会科技进步二等奖、中国科技产业化促进会科技一等奖，入选数字交通典型案例，现归口智能安全业务部 |
-|| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2024年7月网信办备案（序号168），第4个央企备案大模型，民航首个垂直领域大模型 |
+|| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2023年8月发布，2024年7月网信办生成式AI服务备案（序号168，第四个央企备案大模型），参数规模1000亿+，非双备案。已落地智能客服、机坪监控、航班预测等20+民航机构 |
 || [[concept_qihang_large_model]] | 启航大模型：资本运营与创新业务部研发，2025年4月网信办备案（序号394），双算法备案（序号121/181），国资央企第9家备案大模型 |
 || [[concept_gongxiangruixing_large_model]] | 共翔睿行大模型：航空数字化产品事业部研发，2025年12月31日大模型备案+2025年11月算法备案，完成"双备案" |
 || [[concept_baggage_robot]] | 机场行李全向叉取智能机器人：资本运营与创新业务部×南航大×中国移动，青岛胶东机场W13部署，全球首个民航行李转运场景全向叉取机器人，180件/小时，2026年归口机场数智业务部 |
@@ -171,10 +171,11 @@
 ||| [[3fd1cfab_2025travelsky-sasac-jiaolei-aviation-policy-ai]] | 梁海峰出席中国航信人工智能技术交流活动 |
 ||| [[14697e11_2025ai-aviation-digital]] | 梁海峰应邀赴中国航协做"AI赋能民航"主题讲座 |
 ||| [[d87fab07_2025travelsky-ai-aviation-policy]] | 人工智能创新应用工程技术研究中心召开2025年技术委员会会议 |
-||| [[fe64ac34_2025travelsky-miit-new-quality-productivity-aviation-policy-future-industry]] | 黄荣顺应邀出席第八届数字中国建设峰会开幕式 |
-||| [[1c9f8726_2025travelsky-caac-low-altitude-economy-aviation-policy-low-altitude]] | 中国航信参加第三届CATA航空大会 |
-||| [[676622b6_2025travelsky-ai-llm-aviation-tech-innovation]] | 中国航信团委举办"AI大讲堂" |
-||| [[8aa13b14_2025travelsky-ai-llm-aviation-digital]] | 李劲松参加2025中国移动全球合作伙伴大会 |
+|||| [[fe64ac34_2025travelsky-miit-new-quality-productivity-aviation-policy-future-industry]] | 黄荣顺应邀出席第八届数字中国建设峰会开幕式 |
+|||| [[1c9f8726_2025travelsky-caac-low-altitude-economy-aviation-policy-low-altitude]] | 中国航信参加第三届CATA航空大会 |
+|||| [[355fdcab_2025travelsky-sasac-caac-aviation-policy-ai]] | 中国航信亮相2025世界人工智能大会，"智慧民航数智化新型应用"入选首批央企战略性高价值场景（民航唯一），千穰非双备案 |
+|||| [[676622b6_2025travelsky-ai-llm-aviation-tech-innovation]] | 中国航信团委举办"AI大讲堂" |
+|||| [[8aa13b14_2025travelsky-ai-llm-aviation-digital]] | 李劲松参加2025中国移动全球合作伙伴大会 |
 ||| [[baadf6da_2025travelsky-ai-aviation-digital]] | 梁海峰应邀参加中国东航科技创新大会 |
 ||| [[94c38684_2025travelsky-sasac-strategic-emerging-industry-aviation-policy-ai]] | 中国航信受邀参加国资央企"AI+"行动示范基地揭牌仪式 |
 ||| [[9b617fd4_2026travelsky-aviation-policy-low-altitude]] | 江波一行赴中国数联调研交流 |
@@ -197,8 +198,9 @@
 ||| [[event_2025_qihang_double_filing]] | 启航大模型通过国家网信办与国资委双备案（2025年4月，序号394，双算法备案） |
 ||| [[event_2025_gongxiangruixing_double_filing]] | 共翔睿行大模型通过国家算法和大模型双备案（2025年12月31日大模型+2025年11月算法） |
 ||| [[event_2025_qingdao_baggage_robot_deployment]] | 机场行李全向叉取智能机器人在青岛胶东国际机场W13转盘部署（2025年8月8日媒体开放日） |
-||| [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
-||| [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
+| [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
+| [[event_2025travelsky-central-enterprise-ai-scenario]] | 国资委首批战略性高价值场景申报材料：含国产化民航大模型（千穰）、机场行李智能搬运系统、民航舱音识别三个场景，申报名"国产化民航大模型"终审改"智慧民航数智化新型应用" |
+| [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
 ||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
 ||| [[af412855_2024travelsky-miit-aviation-policy-tech-innovation]] | 中国航信应用运维与监控系统获评工信部"2024年信息技术应用创新典型应用案例" |
 ||| [[8ee47b17_2025travelsky-caac-aviation-policy-digital]] | 中国航信成功中标国航数字化签派放行系统建设项目 |

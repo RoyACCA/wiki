@@ -936,4 +936,20 @@
 - SCHEMA.md: v1.6.0 → v1.7.0，changelog 新增 v1.7.0 条目
 - 新增脚本入档: split_pdf_chapters.py、rename_ai_cases.py、batch_ingest.py
 - Scripts Reference 表格已更新
+
+## [2026-05-07] update | 千穰大模型订正 + 国资委AI高价值场景入库
+- 修正 event_355fdcab（WAIC事件页）：删除"千穰双备案"错误描述，订正为生成式AI服务单备案；补充申报名称"国产化民航大模型"→终审改名"智慧民航数智化新型应用"
+- 新增 concept_qianrang_large_model（合并补充）：整合答辩PPT详细数据（参数规模1000亿+、算力平台、应用指标）；明确备案类型为生成式AI服务单备案（非双备案）
+- 新增 event_2025travelsky-central-enterprise-ai-scenario：国资委AI高价值场景申报材料，含三大场景（国产化民航大模型/千穰、机场行李智能搬运系统、民航舱音识别）
+- 删除重复页面 concept_qianrang.md（合并至 concept_qianrang_large_model.md）
+- lint: 0 HIGH issues，total 0
 |
+## [2026-05-07] lint | 11 issues found
+
+## [2026-05-07] lint | 5 issues found
+
+## [2026-05-07] lint | 3 issues found
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] lint | 1 issues found
