@@ -3,7 +3,7 @@ id: 9406ed23
 title: "2025TravelskyAviationTechInnovation"
 created: 2026-05-07
 updated: 2026-05-07
-type: concept
+type: entity-event
 source: raw/docs/3a8d5223_2025travelsky-aviation-tech-innovation.txt
 domain: ["aviation", "tech-innovation"]
 tags: ["concept, aviation, tech-innovation"]

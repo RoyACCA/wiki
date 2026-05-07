@@ -31,7 +31,7 @@
 || [[entity_caac]] | 中国民用航空局（CAAC），国务院部委管理国家局，本政策联合发布单位 |
 || [[entity_sasac]] | 国资委，国务院特设机构，履行出资人职责，监管央企国有资产 |
 || [[entity_miit]] | 工信部，国务院组成部门，负责工业和信息化管理 |
-|| || [[910b4cde_2025travelsky-aviation-tech-innovation]] | 中国航信区块链创新产品补偿通助力西藏机场集团开启智慧民航新篇章 |
+
 
 ### paper
 
@@ -199,6 +199,16 @@
 ||| [[event_2025_qingdao_baggage_robot_deployment]] | 机场行李全向叉取智能机器人在青岛胶东国际机场W13转盘部署（2025年8月8日媒体开放日） |
 ||| [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
 ||| [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
+||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
+||| [[af412855_2024travelsky-miit-aviation-policy-tech-innovation]] | 中国航信应用运维与监控系统获评工信部"2024年信息技术应用创新典型应用案例" |
+||| [[8ee47b17_2025travelsky-caac-aviation-policy-digital]] | 中国航信成功中标国航数字化签派放行系统建设项目 |
+||| [[3a8d5223_2025travelsky-aviation-tech-innovation]] | 机场行李全向叉取智能机器人亮相青岛胶东国际机场转场4周年媒体开放日 |
+
+## Queries
+
+|| File | Summary ||
+|---|---|
+|| [[query_20260429_15th_five_year_ai]] | 整理十五五规划中AI相关论述，形成三要素（算力/算法/数据）+AI+行动+治理的统一框架 |
 
 ## Review (Needs Human Confirmation)
 

@@ -3,7 +3,7 @@ id: 419c3dfb
 title: "2025TravelskyCaacAviationPolicyDigital"
 created: 2026-05-07
 updated: 2026-05-07
-type: concept
+type: entity-event
 source: raw/docs/8ee47b17_2025travelsky-caac-aviation-policy-digital.txt
 domain: ["aviation", "policy", "digital", "central-enterprise", "tech-innovation"]
 tags: ["concept, aviation, policy, digital, central-enterprise, tech-innovation"]

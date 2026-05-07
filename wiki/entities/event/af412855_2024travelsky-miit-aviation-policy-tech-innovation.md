@@ -3,7 +3,7 @@ id: 2fbbe6c0
 title: "2024TravelskyMiitAviationPolicyTechInnovation"
 created: 2026-05-07
 updated: 2026-05-07
-type: concept
+type: entity-event
 source: raw/docs/af412855_2024travelsky-miit-aviation-policy-tech-innovation.txt
 domain: ["aviation", "policy", "tech-innovation"]
 tags: ["concept, aviation, policy, tech-innovation"]
