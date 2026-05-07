@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-07 | Total pages: 96
+| Last updated: 2026-05-07 | Total pages: 125 |
 
 ## Entities
 
@@ -31,7 +31,7 @@
 || [[entity_caac]] | 中国民用航空局（CAAC），国务院部委管理国家局，本政策联合发布单位 |
 || [[entity_sasac]] | 国资委，国务院特设机构，履行出资人职责，监管央企国有资产 |
 || [[entity_miit]] | 工信部，国务院组成部门，负责工业和信息化管理 |
-
+|| [[entity_ndrc]] | 国家发展改革委（NDRC），国务院组成部门，宏观政策制定，"AI+"行动牵头 |
 
 ### paper
 
@@ -203,6 +203,33 @@
 ||| [[af412855_2024travelsky-miit-aviation-policy-tech-innovation]] | 中国航信应用运维与监控系统获评工信部"2024年信息技术应用创新典型应用案例" |
 ||| [[8ee47b17_2025travelsky-caac-aviation-policy-digital]] | 中国航信成功中标国航数字化签派放行系统建设项目 |
 ||| [[3a8d5223_2025travelsky-aviation-tech-innovation]] | 机场行李全向叉取智能机器人亮相青岛胶东国际机场转场4周年媒体开放日 |
+||| [[ch01_smart_travel_assistant_agent]] | 第1章 智能出行助手：基于大模型与Agent驱动的智能出行助手，天骄航空/龙江航空投产，RAG+多Agent协同 |
+||| [[ch02_smart_ticket_search_nlp_rag]] | 第2章 智能机票搜索：基于NLP+RAG的智能机票搜索，天骄航空/龙江航空投产，适老化+知识赋能 |
+||| [[ch03_passenger_self_service_agent]] | 第3章 旅客自助服务：基于大模型的智能体在旅客自助服务场景中的创新应用 |
+||| [[ch04_airport_operations_ai_system]] | 第4章 机场运行管理：基于大模型的机场运行管理数智分析系统，美兰机场部署 |
+||| [[ch05_deepseek_smart_customer_service]] | 第5章 DeepSeek客服：基于DeepSeek引擎的智能客服系统，华东凯亚 |
+||| [[ch06_dangerous_goods_ai_assistant]] | 第6章 危险品智能服务：基于区块链与AI技术的民航危险品智能服务助手 |
+||| [[ch07_hangxin_honghu_ops_assistant]] | 第7章 航信鸿鹄智能运维：基于RAG+AIAgent框架的航信鸿鹄智能运维助手 |
+||| [[ch08_call_center_ai_quality_inspection]] | 第8章 呼叫中心质检：基于AI大模型的呼叫中心服务质量管理智能质检系统 |
+||| [[ch09_rag_qa_system_tod_software]] | 第9章 RAG智能问答TOD：基于RAG技术的智能问答系统—以TOD软件为例 |
+||| [[ch10_rd_knowledge_assistant_dongxiaosheng]] | 第10章 重研知识问答懂小生：重研研发知识问答助手——懂小生 |
+||| [[ch11_boosting_url_risk_detection]] | 第11章 风险URL检测：基于Boosting集成学习的风险URL检测模型，运行中心 |
+||| [[ch12_cloud_ops_ai_assistant]] | 第12章 云化运维智能助手：云化应用运维智能小助手 |
+||| [[ch13_ai_ops_knowledge_graph_kb]] | 第13章 AI智能运维进阶：AI赋能下的智能运维进阶-基于知识图谱与社区驱动运维效能跃迁，华东凯亚 |
+||| [[ch14_moda_multi_source_ops_decision]] | 第14章 摩达MODA运维决策：摩达MODA基于多源数据融合的运维分析决策智能体，广州民航信息技术 |
+||| [[ch15_multi_agent_report_generation]] | 第15章 多智能体报表：基于多智能体机制的报表生成与分析应用，广州民航信息技术 |
+||| [[ch16_deep_learning_talent_assessment]] | 第16章 深度学习人才盘点：深度学习在人才盘点的应用研究，重庆研发中心 |
+||| [[ch17_aviation_ai_training_exam]] | 第17章 民航智能培训考核：基于大模型的民航智能培训考核系统 |
+||| [[ch18_contract_efficiency_management]] | 第18章 合同与效能管理：合同与效能管理平台，华东凯亚 |
+||| [[ch19_smart_travel_ai_assistant]] | 第19章 智能差旅AI助理：智能差旅AI助理 |
+||| [[ch20_canteen_management_system]] | 第20章 餐饮管理系统：中国航信高科技产业园餐饮管理系统，后勤中心 |
+||| [[ch21_aviation_business_data_pipeline]] | 第21章 民航业务流程数据集：基于接口服务维度的民航业务流程数据集 |
+||| [[ch22_aviation_knowledge_graph_kb]] | 第22章 民航知识图谱：民航领域知识图谱赋能知识库的创新应用 |
+||| [[ch23_llmrag_enterprise_ai_assistant]] | 第23章 LLMRAG企业运营AI助手：基于LLMRAG技术的企业运营AI服务助手 |
+||| [[ch24_general_mgmt_ai_assistant]] | 第24章 综合管理智能助手：基于大模型的综合管理智能助手 |
+||| [[ch25_xiaofei_multimodal_rag_assistant]] | 第25章 航信小飞：多模态知识检索与生成RAG智能助手航信小飞，广州民航信息技术 |
+||| [[ch26_hetai_open_platform]] | 第26章 HETAI开放平台：HETAI开放平台，嘉兴分公司 |
+||| [[ch27_jiaxing_green_ai_datacenter]] | 第27章 嘉兴智算中心：中国航信嘉兴智算中心绿色低碳实践 |
 
 ## Queries
 

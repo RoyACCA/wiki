@@ -1,22 +1,48 @@
-# Last updated: 2026-05-06
-
+0b4513f1_2025travelsky-aviation-digital: entities/event/0b4513f1_2025travelsky-aviation-digital
+16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital: entities/event/16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital
+23dcada7_2025aviation-digital: entities/event/23dcada7_2025aviation-digital
+4adf2afe_2025travelsky-aviation-digital: entities/event/4adf2afe_2025travelsky-aviation-digital
+6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital: entities/event/6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital
 8513b9cb_unknown: entities/event/event_2025_ai_ethics_review_methodology
-entity_travelsky: entity_company_travelsky
-entity_strategic_emerging_industry: concept_strategic_emerging_industry
-concept_future_industry: concept_future_industry
-concept_future-industry: concept_future_industry
+861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital: entities/event/861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital
+chunks: {}
 concept_central_enterprise: concept_aviation
-entity_jiaolei: person_jiaolei
+concept_future-industry: concept_future_industry
+concept_future_industry: concept_future_industry
+e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai: entities/event/e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai
 entity_ai: concept_ai
+entity_industry_llm: entity_llm
+entity_jiaolei: person_jiaolei
 entity_llm: concept_llm
 entity_low_altitude_economy: concept_low_altitude_economy
 entity_new_quality_productivity: concept_new_quality_productivity
-# 2026-05-07: company → event 迁移
-entity_industry_llm: entity_llm
-23dcada7_2025aviation-digital: entities/event/23dcada7_2025aviation-digital
-6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital: entities/event/6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital
-0b4513f1_2025travelsky-aviation-digital: entities/event/0b4513f1_2025travelsky-aviation-digital
-4adf2afe_2025travelsky-aviation-digital: entities/event/4adf2afe_2025travelsky-aviation-digital
-861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital: entities/event/861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital
-16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital: entities/event/16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital
-e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai: entities/event/e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai
+entity_strategic_emerging_industry: concept_strategic_emerging_industry
+entity_travelsky: entity_company_travelsky
+pages:
+  0aa24b18_undatedtravelsky-aviation-ai-tech-innovation: ch16_deep_learning_talent_assessment
+  0e5ff6b0_undatedllm-aviation-policy-ai: ch22_aviation_knowledge_graph_kb
+  0e7bcaf1_undatedtravelsky-ai-aviation-policy: ch19_smart_travel_ai_assistant
+  11dc0740_undatedtravelsky-llm-aviation-policy-ai: ch01_smart_travel_assistant_agent
+  12369b1b_undatedtravelsky-llm-aviation-ai-tech-innovation: ch07_hangxin_honghu_ops_assistant
+  2ee3be64_undatedtravelsky-ai-aviation: ch06_dangerous_goods_ai_assistant
+  33e4a24f_undatedaviation-tech-innovation: ch05_deepseek_smart_customer_service
+  3b43e176_undatedtravelsky-aviation-ai: ch12_cloud_ops_ai_assistant
+  4445f0a3_undatedllm-aviation-ai: ch08_call_center_ai_quality_inspection
+  45338e80_undatedtravelsky-llm-aviation-policy-ai: ch24_general_mgmt_ai_assistant
+  61f9c2a4_undatedllm-aviation-ai: ch17_aviation_ai_training_exam
+  6ef56a58_undatedtravelsky-aviation-policy-ai: ch02_smart_ticket_search_nlp_rag
+  717af075_2025travelsky-sasac-ai-aviation-policy: ch27_jiaxing_green_ai_datacenter
+  7a724dae_undatedsasac-aviation-policy-ai: ch13_ai_ops_knowledge_graph_kb
+  7bb049f4_undatedtravelsky-aviation-ai-digital: ch21_aviation_business_data_pipeline
+  80cca634_undatedllm-aviation-ai: ch25_xiaofei_multimodal_rag_assistant
+  94aba6b2_2023travelsky-aviation-ai: ch11_boosting_url_risk_detection
+  b449f2a0_undatedtravelsky-aviation-policy-ai: ch20_canteen_management_system
+  c4188918_undatedllm-aviation-ai-tech-innovation: ch14_moda_multi_source_ops_decision
+  c6baa8f2_undatedtravelsky-aviation-policy-ai: ch10_rd_knowledge_assistant_dongxiaosheng
+  cad1a570_undatedtravelsky-aviation-ai-tech-innovation: ch09_rag_qa_system_tod_software
+  d224b386_2024travelsky-aviation-ai-digital: ch26_hetai_open_platform
+  d383e04e_undatedllm-aviation-ai-digital: ch04_airport_operations_ai_system
+  da827324_undatedai-aviation-policy: ch23_llmrag_enterprise_ai_assistant
+  e506601d_undatedllm-aviation-ai-digital: ch15_multi_agent_report_generation
+  eadf77ca_undatedllm-aviation-policy-ai: ch03_passenger_self_service_agent
+  fa012de0_undatedai-aviation-policy: ch18_contract_efficiency_management
