@@ -7,7 +7,7 @@ type: event
 domain: [ai, aviation, tech-innovation]
 tags: [event, ai, aviation, tech-innovation]
 confidence: 0.99
-summary: "智慧民航数智化新型应用是中国航信在国资委AI环信平台发布的典型案例（ID=21），以千穰大模型为核心，2025年10月15日发布。千穰为"双备案"表述与AI环信平台API数据（仅生成式AI单备案）存在矛盾，以API数据为准。"
+summary: "智慧民航数智化新型应用是中国航信在国资委AI环信平台发布的典型案例（ID=21），以千穰大模型为核心，2025年10月15日发布。千穰仅有国家网信办生成式人工智能服务单备案（第四个通过备案的央国企大模型），非双备案。"
 conflicts: []
 versions: []
 claims: [
@@ -21,18 +21,10 @@ claims: [
   },
   {
     "id": "zc002",
-    "text": "核心产品为千穰大模型，参数规模超千亿，基于国产化算力（320张910BGPU，45%+利用率），集成知识图谱、RAG、多模态训练技术。千穰已通过国家网信办生成式人工智能服务备案（备案号ZhongYangQiYe-QianRang-202406200001）。",
+    "text": "核心产品为千穰大模型，参数规模超千亿，基于国产化算力（320张910BGPU，45%+利用率），集成知识图谱、RAG、多模态训练技术。千穰已通过国家网信办生成式人工智能服务备案（备案号ZhongYangQiYe-QianRang-202406200001），系第四个通过备案的央国企大模型，非双备案。",
     "para_index": 0,
     "entities": ["company_travelsky"],
     "domains": ["ai", "aviation"],
-    "type": "fact"
-  },
-  {
-    "id": "zc003",
-    "text": "该页面声称千穰为"双备案"——此表述与AI环信平台API数据矛盾（AI环信千穰页面仅显示生成式AI服务单备案）。以API数据为准，千穰为单备案。",
-    "para_index": 0,
-    "entities": [],
-    "domains": ["ai", "policy"],
     "type": "fact"
   },
   {
@@ -60,7 +52,7 @@ claims: [
 
 智慧民航数智化新型应用是中国航信在国资委AI环信平台发布的**典型案例**（platform ID=21），于2025年10月15日发布在中国航信专题页面。该案例以[[concept_qianrang_large_model]]为核心，展示国产化民航大模型的研发成果与技术应用。
 
-> ⚠️ **重要矛盾记录：** 该典型案例页面声称千穰为"民航首个通过国家网信办双备案的大模型"，但AI环信平台的千穰模型详情页（API数据）仅显示"生成式人工智能服务备案"，无深度合成算法备案记录。根据数据权威性原则（平台API > 第三方平台展示文案），以API数据为准：**千穰为单备案，[[concept_qihang_large_model]]为双备案**。矛盾来源可能为：典型案例发布时（2025-10）尚未取得深度合成算法备案，或页面文案存在错误。
+> ⚠️ **说明：** 该典型案例页面原文案存在错误——声称千穰为"民航首个通过国家网信办双备案的大模型"。经雷哥确认：**千穰仅有国家网信办生成式人工智能服务备案（单备案），非双备案**。这是页面原文案错误，非数据矛盾。
 
 ## Details
 
@@ -135,7 +127,7 @@ claims: [
 
 ## Related
 
-- [[concept_qianrang_large_model]] — 千穰大模型（核心产品，**备案类型矛盾待确认**）
+- [[concept_qianrang_large_model]] — 千穰大模型（核心产品，第四个通过备案的央国企大模型，单备案）
 - [[concept_qihang_large_model]] — 启航大模型（双备案）
 - [[event_2024_qianrang_network_filing]] — 千穰通过网信办备案
 - [[event_2025travelsky-central-enterprise-ai-scenario]] — 国资委AI高价值场景申报材料

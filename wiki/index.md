@@ -200,7 +200,7 @@
 ||| [[event_2025_gongxiangruixing_double_filing]] | 共翔睿行大模型通过国家算法和大模型双备案（2025年12月31日大模型+2025年11月算法） |
 ||| [[event_2025_qingdao_baggage_robot_deployment]] | 机场行李全向叉取智能机器人在青岛胶东国际机场W13转盘部署（2025年8月8日媒体开放日） |
 | [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
-|| [[event_2025travelsky-zhineng-civil-aviation]] | 智慧民航数智化新型应用：国资委AI环信典型案例（ID=21，2025-10-15），以千穰大模型为核心，含建设背景/技术特点/应用成效/未来展望；千穰"双备案"表述与API数据矛盾，以API为准（单备案） |
+|| [[event_2025travelsky-zhineng-civil-aviation]] | 智慧民航数智化新型应用：国资委AI环信典型案例（ID=21，2025-10-15），以千穰大模型为核心，含建设背景/技术特点/成效/展望；千穰仅有生成式AI单备案（非双备案） |
 | [[event_2025travelsky-central-enterprise-ai-scenario]] | 国资委首批战略性高价值场景申报材料：含国产化民航大模型（千穰）、机场行李智能搬运系统、民航舱音识别三个场景，申报名"国产化民航大模型"终审改"智慧民航数智化新型应用" |
 | [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
 ||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
