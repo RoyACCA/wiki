@@ -188,7 +188,7 @@ def find_orphan_pages(wiki_path: str) -> list[str]:
 
     for root, dirs, files in os.walk(wiki_dir):
         for f in files:
-            if not f.endswith('.md') or f in ['index.md', 'log.md', '_redirects.yaml']:
+            if not f.endswith('.md') or f in ['index.md', '_redirects.yaml'] or f.startswith('log'):
                 continue
             fpath = os.path.join(root, f)
             rel = fpath.replace(wiki_path + '/', '')
@@ -250,7 +250,7 @@ def check_frontmatter_completeness(wiki_path: str) -> list[dict]:
 
     for root, dirs, files in os.walk(wiki_dir):
         for f in files:
-            if not f.endswith('.md') or f in ['index.md', 'log.md', '_redirects.yaml']:
+            if not f.endswith('.md') or f in ['index.md', '_redirects.yaml'] or f.startswith('log'):
                 continue
             fpath = os.path.join(root, f)
             rel = fpath.replace(wiki_path + '/', '')
@@ -470,7 +470,7 @@ def check_index_completeness(wiki_path: str) -> list[dict]:
     fs_pages = set()
     for root, dirs, files in os.walk(wiki_dir):
         for f in files:
-            if f.endswith('.md') and f not in ['index.md', 'log.md', '_redirects.yaml']:
+            if f.endswith('.md') and f not in ['index.md', '_redirects.yaml'] and not f.startswith('log'):
                 rel = os.path.join(root, f).replace(wiki_path + '/', '')
                 fs_pages.add(rel)
 
