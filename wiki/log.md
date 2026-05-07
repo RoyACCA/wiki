@@ -38,3 +38,18 @@
 - lint.py --fix 现在覆盖: broken links + index completeness + log rotation
 - SKILL.md + SCHEMA.md 双生子版本同步 → v1.8.3
 
+
+## [2026-05-07] lint | 1 issues found
+## [2026-05-07] update | 低空经济概念页v2
+
+- concept_low_altitude_economy.md 占位桩 → 完整版（confidence 0.5→0.95）
+- 新增12条claims（市场规模/政策脉络/应用场景/发展阶段/地方进展/挑战）
+- 新增raw源文件 raw/web/low_altitude_economy_knowledge_2026.md
+- 补全wikilinks（aviation/smart_civil_aviation/caac/sasac/miit）
+
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] lint | 1 issues found
