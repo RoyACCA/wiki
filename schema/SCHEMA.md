@@ -1,7 +1,8 @@
-# Wiki Schema — LLM Wiki v1.8.2
+# Wiki Schema — LLM Wiki v1.8.3
 
 ## Version
-- **v1.8.2** (2026-05-07): **Fix orphan pages false positive**: lint.py skip_types 新增 `'company'`，entity-company 类型页面不再产生 orphan 告警；迁移 00cbbaec_2025travelsky-aviation-policy.md（company→event），修复 broken link 历史遗留问题
+- **v1.8.3** (2026-05-07): **进化机制 v1**: lint.py --fix 新增 index completeness 自动修复（auto_fix_index_completeness）；新增 log 轮转自动化（auto_fix_log_rotation）；lint.py skip log* 轮转文件（orphan/frontmatter/index_completeness 三处）；修复 post-commit hook 漏扫 log-YYYY-MM.md
+- **v1.8.2** (2026-05-07): **Fix orphan pages false positive**: lint.py skip_types 新增 `'company'`，entity-company 类型页面不再产生 orphan 告警；迁移 00cbbaec_2025travelsky-aviation.md（company→event），修复 broken link 历史遗留问题
 - **v1.8.1** (2026-05-07): **51-doc batch ingest**: 中国航信新闻/专报/政策文档入库（35 event + 14 company + 2 paper）；修复ingest.py/slug_generator.py无扩展名文件处理；修复index.md漏加16条+错误格式
 - **v1.8.0** (2026-05-07): **Format standardization**: ① Provenance单行格式（`> [!source]| c001: text`）；② domain/tags YAML list格式化（无引号）；③ conflicts/versions YAML list格式化；④ 全部6个TEMPLATE标准化；⑤ lint.py: events/目录豁免orphan检查；⑥ qa.py — 版本同步+lint双重QA卡点
 - **v1.7.1** (2026-05-07): **Ingest**: 网页搜索结果入库 — 2026年国资委AI+专项行动、十五五规划纲要发布、工信部"模数共振"行动；新增event页面2个、concept页面1个、raw源文件2个；更新entity_sasac/entity_miit并补充claims字段；wikilink格式已统一为underscore

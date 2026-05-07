@@ -173,6 +173,145 @@ def auto_fix_broken_links(wiki_path: str, fixed_links: list):
 
     return fixed_count
 
+
+def auto_fix_index_completeness(wiki_path: str, index_issues: list[dict], dry_run: bool = False) -> int:
+    """
+    Auto-fix index completeness: add missing pages to index.md.
+    Each issue: {"issue": "file not in index", "file": "wiki/entities/event/foo.md"}
+
+    Strategy: read each missing page's frontmatter → determine section → append to index.md
+    Returns number of pages added.
+    """
+    if not index_issues:
+        return 0
+
+    index_path = os.path.join(wiki_path, 'wiki/index.md')
+    if not os.path.exists(index_path):
+        print("  ! index.md not found, cannot auto-fix")
+        return 0
+
+    with open(index_path, 'r', encoding='utf-8') as f:
+        index_content = f.read()
+
+    added_count = 0
+    for issue in index_issues:
+        if issue.get('issue') != 'file not in index':
+            continue
+        filepath = issue.get('file')
+        if not filepath:
+            continue
+
+        full_path = os.path.join(wiki_path, filepath)
+        if not os.path.exists(full_path):
+            full_path = os.path.join(wiki_path, 'wiki', os.path.basename(filepath))
+
+        if not os.path.exists(full_path):
+            continue
+
+        try:
+            with open(full_path, 'r', encoding='utf-8') as f:
+                page_content = f.read()
+        except:
+            continue
+
+        # Extract frontmatter
+        fm_match = re.match(r'^---\n(.*?)\n---', page_content, re.DOTALL)
+        if not fm_match:
+            continue
+
+        fm_text = fm_match.group(1)
+        title_m = re.search(r'^title:\s*(.+?)\s*$', fm_text, re.MULTILINE)
+        type_m = re.search(r'^type:\s*(.+?)\s*$', fm_text, re.MULTILINE)
+        summary_m = re.search(r'^summary:\s*["\']?(.+?)["\']?\s*$', fm_text, re.MULTILINE)
+
+        title = title_m.group(1).strip('"\' ') if title_m else os.path.basename(filepath).replace('.md', '')
+        page_type = type_m.group(1).strip() if type_m else 'unknown'
+        summary = summary_m.group(1).strip('"\' ') if summary_m else '（无摘要）'
+
+        # Determine target section from type
+        if 'person' in page_type:
+            section = '### person'
+            prefix = '| [['
+        elif 'company' in page_type:
+            section = '### company'
+            prefix = '| [['
+        elif 'paper' in page_type:
+            section = '### paper'
+            prefix = '| [['
+        elif 'event' in page_type:
+            section = '### company'
+            prefix = '| [['
+        elif 'query' in page_type:
+            section = '## Queries'
+            prefix = '| [['
+        elif 'comparison' in page_type:
+            section = '## Comparisons'
+            prefix = '| [['
+        else:
+            section = '## Concepts'
+            prefix = '| [['
+
+        slug = filepath.replace('.md', '').replace(wiki_path + '/wiki/', '')
+        new_entry = f"{prefix}{slug}]] | {summary} |"
+
+        # Find insertion point: last occurrence of section header or the last entry before next section
+        section_pattern = re.compile(rf'^{re.escape(section)}', re.MULTILINE)
+        match = section_pattern.search(index_content)
+
+        if not match:
+            # Section doesn't exist — find appropriate place to insert
+            if section == '## Concepts':
+                insert_pos = len(index_content)
+                for marker in ['## Queries', '## Review', '## Curated']:
+                    m = re.search(rf'^## {re.escape(marker[3:])}', index_content, re.MULTILINE)
+                    if m:
+                        insert_pos = min(insert_pos, m.start())
+            elif section == '## Queries':
+                insert_pos = len(index_content)
+                for marker in ['## Review', '## Curated']:
+                    m = re.search(rf'^## {re.escape(marker[3:])}', index_content, re.MULTILINE)
+                    if m:
+                        insert_pos = min(insert_pos, m.start())
+            else:
+                insert_pos = len(index_content)
+        else:
+            # Find the end of this section (next ## or end of file)
+            section_start = match.start()
+            rest = index_content[section_start:]
+            next_section = re.search(r'^## ', rest[5:], re.MULTILINE)
+            if next_section:
+                insert_pos = section_start + 5 + next_section.start()
+            else:
+                insert_pos = len(index_content)
+
+        if dry_run:
+            print(f"  [DRY-RUN] Would add to {section}: {slug}")
+        else:
+            index_content = index_content[:insert_pos] + new_entry + '\n' + index_content[insert_pos:]
+            added_count += 1
+            print(f"  [FIX] Added to {section}: {slug}")
+
+    if not dry_run and added_count > 0:
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(index_content)
+
+        # Update total count in header
+        with open(index_path, 'r', encoding='utf-8') as f:
+            header = f.read()
+        total_m = re.search(r'Total pages:\s*(\d+)', header)
+        if total_m:
+            old_total = int(total_m.group(1))
+            # Count actual pages in index
+            actual = header.count('| [[')
+            new_total = old_total + added_count
+            header = re.sub(r'Total pages:\s*\d+', f'Total pages: {actual}', header)
+            with open(index_path, 'w', encoding='utf-8') as f:
+                f.write(header)
+            print(f"  [FIX] Updated total pages {old_total} -> {actual}")
+
+    return added_count
+
+
 def find_orphan_pages(wiki_path: str) -> list[str]:
     """Find pages with no inbound wikilinks (skipping query/event/paper types which are self-contained)."""
     wiki_dir = os.path.join(wiki_path, 'wiki')
@@ -424,6 +563,53 @@ def check_log_rotation(wiki_path: str, threshold: int = 500) -> dict:
 
     return {"needs_rotation": False, "entry_count": 0}
 
+
+def auto_fix_log_rotation(wiki_path: str, dry_run: bool = False) -> dict:
+    """Rotate log.md: rename to log-YYYY-MM-DD.md + create new log.md with header."""
+    log_path = os.path.join(wiki_path, 'wiki/log.md')
+    if not os.path.exists(log_path):
+        return {"rotated": False, "reason": "log.md not found"}
+
+    today = datetime.now().strftime('%Y-%m-%d')
+    rotated_path = os.path.join(wiki_path, f'wiki/log-{today}.md')
+
+    # Check if this exact date already exists
+    if os.path.exists(rotated_path):
+        return {"rotated": False, "reason": f"log-{today}.md already exists"}
+
+    if dry_run:
+        print(f"  [DRY-RUN] Would rotate log.md -> log-{today}.md")
+        return {"rotated": True, "rotated_path": f"log-{today}.md"}
+
+    # Read old log for the rotation entry
+    with open(log_path, 'r', encoding='utf-8') as f:
+        old_log_content = f.read()
+
+    # Count entries
+    entries = [l for l in old_log_content.split('\n') if l.strip().startswith('## ')]
+    entry_count = len(entries)
+
+    # Save rotated version
+    with open(rotated_path, 'w', encoding='utf-8') as f:
+        f.write(old_log_content)
+    print(f"  [FIX] Rotated log.md -> log-{today}.md ({entry_count} entries)")
+
+    # Create new log.md
+    new_log = f"""# Wiki Changelog
+
+> Chronological action log. Every ingest, update, and structural change recorded.
+> Format: `## [YYYY-MM-DD] Action | Details`
+
+## [{today}] rotation | Rotated {entry_count} entries → log-{today}.md
+
+"""
+    with open(log_path, 'w', encoding='utf-8') as f:
+        f.write(new_log)
+    print(f"  [FIX] Created new log.md")
+
+    return {"rotated": True, "rotated_path": f"log-{today}.md", "entry_count": entry_count}
+
+
 def check_review_overdue(wiki_path: str, threshold_days: int = 30) -> list[dict]:
     """Find items in review/ not processed in >30 days."""
     overdue = []
@@ -537,7 +723,7 @@ def check_content_conflicts(wiki_path: str) -> list[dict]:
 def main():
     parser = argparse.ArgumentParser(description='LLM Wiki Lint — 10-point health check + auto-fix')
     parser.add_argument('--wiki-path', default=WIKI_PATH, help='Wiki root path')
-    parser.add_argument('--fix', action='store_true', help='Auto-fix broken links via redirects')
+    parser.add_argument('--fix', action='store_true', help='Auto-fix: broken links (redirects) + index completeness + log rotation')
     parser.add_argument('--dry-run', action='store_true', help='Show what would be fixed without modifying files')
     args = parser.parse_args()
 
@@ -618,6 +804,19 @@ def main():
         for i in index_issues[:5]:
             print(f"  - {i}")
         results['issues'].append({"check": "4. Index Completeness", "severity": "MEDIUM", "count": len(index_issues), "details": index_issues})
+        if args.fix and not dry_run:
+            idx_fixed = auto_fix_index_completeness(wiki_path, index_issues)
+            if idx_fixed > 0:
+                print(f"\n[AUTO-FIX] Added {idx_fixed} page(s) to index")
+                # Re-check
+                index_issues = check_index_completeness(wiki_path)
+                results['issues'] = [i for i in results['issues'] if i['check'] != '4. Index Completeness']
+                if not index_issues:
+                    print(f"[VERIFY] Index now complete")
+                else:
+                    print(f"[VERIFY] {len(index_issues)} still missing")
+        elif args.fix and dry_run:
+            auto_fix_index_completeness(wiki_path, index_issues, dry_run=True)
 
     # Check 5: Frontmatter completeness
     fm_issues = check_frontmatter_completeness(wiki_path)
@@ -656,6 +855,12 @@ def main():
     if log_check.get('needs_rotation'):
         print(f"\n[LOW] Log Rotation Needed: {log_check['entry_count']} entries (threshold: {log_check['threshold']})")
         results['issues'].append({"check": "9. Log Rotation", "severity": "LOW", "count": 1, "details": log_check})
+        if args.fix and not dry_run:
+            rot = auto_fix_log_rotation(wiki_path)
+            if rot.get('rotated'):
+                print(f"\n[AUTO-FIX] {rot}")
+        elif args.fix and dry_run:
+            auto_fix_log_rotation(wiki_path, dry_run=True)
 
     # Check 10: Review overdue
     overdue = check_review_overdue(wiki_path)
