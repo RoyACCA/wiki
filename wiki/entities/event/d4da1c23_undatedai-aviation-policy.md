@@ -66,7 +66,7 @@ SITA 首席执行官David Lavorel特别指出，航空业在AI部署上雄心勃
 ## Related
 - Sources: [[../raw/docs/d4da1c23_undatedai-aviation-policy.docx]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_ai]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

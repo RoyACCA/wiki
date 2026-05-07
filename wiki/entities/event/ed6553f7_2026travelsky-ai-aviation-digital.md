@@ -43,8 +43,8 @@ claims: [{"id": "cd61890a1", "text": "江波会见华东师范大学周傲英一
 
 ## Related
 - Sources: [[../raw/docs/ed6553f7_2026travelsky-ai-aviation-digital]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

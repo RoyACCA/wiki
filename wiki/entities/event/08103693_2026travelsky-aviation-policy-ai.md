@@ -41,8 +41,8 @@ claims: [{"id": "c01b035e8", "text": "江波一行赴辽宁机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/08103693_2026travelsky-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

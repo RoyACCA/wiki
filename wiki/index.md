@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 129 |
+| Last updated: 2026-05-07 | Total pages: 133 |
 
 ## Entities
 
@@ -175,6 +175,10 @@
 || [[e8ea1f76_2026travelsky-aviation-policy-ai]] | 2026-04-17 江波赴黑龙江调研慰问一线员工 |
 || [[ed6553f7_2026travelsky-ai-aviation-digital]] | 2026-04-17 江波会见华东师范大学周傲英一行 |
 || [[event_00cbbaec_2025travelsky-aviation]] | 2026-02-10 江波出席顺宜家园公租房第二批入住乔迁仪式 |
+|| [[0fa43212_undatedai-aviation-policy-v2]] | 后沙峪智算服务器搬迁至嘉兴数据中心征求意见稿（v2，280台设备，过渡期X月） ||
+|| [[2c13e8df_undatedai-aviation-policy]] | 后沙峪智算服务器搬迁至嘉兴数据中心正式版请示（运行中心主责，嘉兴云数据公司托管） ||
+|| [[d4da1c23_undatedai-aviation-policy]] | 航信专报0427：首季财政收支、知识产权AI快保护、民航局机票平台整治、深圳机场RNP AR首飞、五一出行数据等 ||
+|| [[eda756e9_undatedtravelsky-aviation-tech-innovation]] | "腾云"机场离港运维平台智能化案例（230家机场接入，故障定位从小时级压至分钟级，获民航优秀安全管理案例） ||
 
 ## Concepts
 

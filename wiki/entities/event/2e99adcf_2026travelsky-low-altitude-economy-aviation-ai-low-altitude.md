@@ -39,13 +39,13 @@ claims: [{"id": "ca8b71856", "text": "中国航信赴四川机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/2e99adcf_2026travelsky-low-altitude-economy-aviation-ai-low-altitude]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ca8b71856

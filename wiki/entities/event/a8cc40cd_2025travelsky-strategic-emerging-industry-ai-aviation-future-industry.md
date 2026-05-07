@@ -37,10 +37,10 @@ claims: [{"id": "c7c337310", "text": "江波拜访首都机场集团\n发布时�
 
 ## Related
 - Sources: [[../raw/docs/a8cc40cd_2025travelsky-strategic-emerging-industry-ai-aviation-future-industry]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_strategic_emerging_industry]]
-- Entities: [[entity_new_quality_productivity]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_strategic_emerging_industry]]
+- Entities: [[concept_new_quality_productivity]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_future_industry]]

@@ -47,14 +47,14 @@ claims: [{"id": "c32969415", "text": "江波会见中国电信党组副书记、
 
 ## Related
 - Sources: [[../raw/docs/37486ebb_2025travelsky-ai-aviation-low-altitude.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| c32969415

@@ -39,14 +39,14 @@ claims: [{"id": "cc7d61a2e", "text": "江波会见中电莱斯党委副书记、
 
 ## Related
 - Sources: [[../raw/docs/020b493d_2025travelsky-aviation-low-altitude-future-industry.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_strategic_emerging_industry]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_strategic_emerging_industry]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_future_industry]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cc7d61a2e

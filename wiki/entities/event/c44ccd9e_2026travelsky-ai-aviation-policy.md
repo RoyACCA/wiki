@@ -43,8 +43,8 @@ claims: [{"id": "cf36742ba", "text": "江波会见法兰克福机场高级副总
 
 ## Related
 - Sources: [[../raw/docs/c44ccd9e_2026travelsky-ai-aviation-policy]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

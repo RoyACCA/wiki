@@ -45,13 +45,13 @@ claims: [{"id": "c5603a2ba", "text": "江波会见国家数据发展研究院副
 
 ## Related
 - Sources: [[../raw/docs/30067a9c_2025travelsky-low-altitude-economy-aviation-policy-low-altitude]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| c5603a2ba

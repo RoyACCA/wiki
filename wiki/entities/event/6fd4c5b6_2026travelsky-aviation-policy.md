@@ -37,7 +37,7 @@ claims: [{"id": "c0e902d37", "text": "江波率队赴南航集团调研交流\n�
 
 ## Related
 - Sources: [[../raw/docs/6fd4c5b6_2026travelsky-aviation-policy]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 

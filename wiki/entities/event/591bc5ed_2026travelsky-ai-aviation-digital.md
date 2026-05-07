@@ -39,8 +39,8 @@ claims: [{"id": "c2cc33bf8", "text": "江波率队赴上海机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/591bc5ed_2026travelsky-ai-aviation-digital]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

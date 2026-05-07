@@ -43,9 +43,9 @@ claims: [{"id": "cebbb842e", "text": "江波一行赴青岛机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/9567a5e0_2026travelsky-aviation-ai-future-industry.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_new_quality_productivity]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_new_quality_productivity]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_future_industry]]

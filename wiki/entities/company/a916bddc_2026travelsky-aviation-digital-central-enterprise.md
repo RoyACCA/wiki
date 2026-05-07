@@ -41,10 +41,10 @@ claims: [{"id": "ce1b4465d", "text": "江波会见杭州电子科技大学副校
 
 ## Related
 - Sources: [[../raw/docs/a916bddc_2026travelsky-aviation-digital-central-enterprise]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ce1b4465d

@@ -37,7 +37,7 @@ claims: [{"id": "c9809fd96", "text": "江波“四不两直”深入春运保障
 
 ## Related
 - Sources: [[../raw/docs/6613b765_2026travelsky-aviation-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 

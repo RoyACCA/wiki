@@ -37,7 +37,7 @@ claims: [{"id": "c342a74af", "text": "江波督导运行中心领导班子2025�
 
 ## Related
 - Sources: [[../raw/docs/d63a64cb_2025travelsky-aviation]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 
 ## Provenance

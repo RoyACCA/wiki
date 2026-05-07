@@ -33,7 +33,7 @@ claims: [{"id": "cdc8bcd58", "text": "江波参加人力资源部党支部2025�
 
 ## Related
 - Sources: [[../raw/docs/be0d5f95_2025travelsky-aviation-policy]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 

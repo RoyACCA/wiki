@@ -37,13 +37,13 @@ claims: [{"id": "c4f0fbe6a", "text": "江波与爱尔兰总理马丁会面 共�
 
 ## Related
 - Sources: [[../raw/docs/b67fca27_2026travelsky-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| c4f0fbe6a

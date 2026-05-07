@@ -39,8 +39,8 @@ claims: [{"id": "c2ef3779e", "text": "江波一行赴重庆机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/b88c27b9_2026travelsky-low-altitude-economy-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

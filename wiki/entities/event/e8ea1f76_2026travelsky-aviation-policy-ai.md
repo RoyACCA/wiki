@@ -37,7 +37,7 @@ claims: [{"id": "c426650c7", "text": "江波一行赴黑龙江机场集团调研
 
 ## Related
 - Sources: [[../raw/docs/e8ea1f76_2026travelsky-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_caac]]

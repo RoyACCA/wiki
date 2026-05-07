@@ -59,7 +59,7 @@ claims: [{"id": "cac2f3a45", "text": "关于将后沙峪智算服务器及相关
 
 ## Related
 - Sources: [[../raw/docs/0fa43212_undatedai-aviation-policy-v2.docx]]
-- Entities: [[entity_ai]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

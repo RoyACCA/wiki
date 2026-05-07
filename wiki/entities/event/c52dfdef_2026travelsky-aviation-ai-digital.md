@@ -39,7 +39,7 @@ claims: [{"id": "c89875e97", "text": "江波赴重庆研发中心、重庆凯亚
 
 ## Related
 - Sources: [[../raw/docs/c52dfdef_2026travelsky-aviation-ai-digital]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

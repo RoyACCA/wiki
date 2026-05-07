@@ -43,10 +43,10 @@ claims: [{"id": "c80b8711b", "text": "中国航信召开2026年市场工作会\n
 
 ## Related
 - Sources: [[../raw/docs/14e9580b_2026travelsky-aviation-digital-central-enterprise.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

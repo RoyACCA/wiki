@@ -37,7 +37,7 @@ claims: [{"id": "cfde2ac81", "text": "江波出席顺宜家园公租房第二批
 
 ## Related
 - Sources: [[../raw/docs/00cbbaec_2025travelsky-aviation-policy.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 

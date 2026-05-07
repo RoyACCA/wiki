@@ -39,9 +39,9 @@ claims: [{"id": "c959c828e", "text": "江波会见星网应用院党委副书记
 
 ## Related
 - Sources: [[../raw/docs/c11c49cc_2025travelsky-low-altitude-economy-new-quality-productivity-aviation-low-altitude-future-industry]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_new_quality_productivity]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_new_quality_productivity]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_future_industry]]

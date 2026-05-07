@@ -122,15 +122,15 @@ claims: [{"id": "ccf4baf47", "text": "企盼十五五 | 中国航信江波：安
 
 ## Related
 - Sources: [[../raw/docs/0bc69d59_undatedtravelsky-sasac-strategic-emerging-industry-aviation-policy-future-industry]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
-- Entities: [[entity_strategic_emerging_industry]]
+- Entities: [[concept_strategic_emerging_industry]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_future_industry]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ccf4baf47

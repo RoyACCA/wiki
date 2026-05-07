@@ -37,7 +37,7 @@ claims: [{"id": "cd0d23f14", "text": "江波赴广州航信开展调研\n发布�
 
 ## Related
 - Sources: [[../raw/docs/e8c49a7d_2026travelsky-aviation-policy-ai]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

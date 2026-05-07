@@ -39,13 +39,13 @@ claims: [{"id": "cd6e1f0c7", "text": "江波会见海南国际经济发展局局
 
 ## Related
 - Sources: [[../raw/docs/8e0d9ecc_2026travelsky-low-altitude-economy-aviation-policy-low-altitude]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cd6e1f0c7

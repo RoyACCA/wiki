@@ -49,16 +49,16 @@ claims: [{"id": "ca2bcb3e9", "text": "江波一行赴嘉兴园区开展调研\n�
 
 ## Related
 - Sources: [[../raw/docs/083a414e_2026travelsky-aviation-policy-ai]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_strategic_emerging_industry]]
+- Entities: [[concept_strategic_emerging_industry]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_future_industry]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ca2bcb3e9

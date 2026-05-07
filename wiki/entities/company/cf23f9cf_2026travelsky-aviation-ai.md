@@ -45,8 +45,8 @@ claims: [{"id": "c13875dea", "text": "江波一行赴黑龙江调研慰问一线
 
 ## Related
 - Sources: [[../raw/docs/cf23f9cf_2026travelsky-aviation-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 

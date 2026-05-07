@@ -35,11 +35,11 @@ claims: [{"id": "ca8fd3d85", "text": "江波会见中国数联物流党委书记
 
 ## Related
 - Sources: [[../raw/docs/52a22c38_2025travelsky-strategic-emerging-industry-aviation-ai-future-industry.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_strategic_emerging_industry]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_strategic_emerging_industry]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_future_industry]]

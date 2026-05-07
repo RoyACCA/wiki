@@ -37,7 +37,7 @@ claims: [{"id": "cf8bb8598", "text": "江波会见国际航协北亚区副总裁
 
 ## Related
 - Sources: [[../raw/docs/945b1046_2026travelsky-aviation-digital]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
 

@@ -39,8 +39,8 @@ claims: [{"id": "c27341627", "text": "江波拜访中航集团\n发布时间：2
 
 ## Related
 - Sources: [[../raw/docs/1304f1e5_2025travelsky-ai-aviation-digital]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

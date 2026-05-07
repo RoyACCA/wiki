@@ -37,8 +37,8 @@ claims: [{"id": "c4ca59fbd", "text": "江波一行赴新海航航空集团调研
 
 ## Related
 - Sources: [[../raw/docs/516b0782_2026travelsky-ai-aviation-digital]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

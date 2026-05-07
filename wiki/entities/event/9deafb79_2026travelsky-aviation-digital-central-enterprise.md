@@ -37,10 +37,10 @@ claims: [{"id": "cdfaddd62", "text": "江波一行赴青岛凯亚调研\n发布�
 
 ## Related
 - Sources: [[../raw/docs/9deafb79_2026travelsky-aviation-digital-central-enterprise.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

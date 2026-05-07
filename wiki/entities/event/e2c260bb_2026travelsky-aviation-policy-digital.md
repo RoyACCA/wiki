@@ -39,7 +39,7 @@ claims: [{"id": "ccc7c33ae", "text": "江波会见中国航协王昌顺一行\n�
 
 ## Related
 - Sources: [[../raw/docs/e2c260bb_2026travelsky-aviation-policy-digital]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_digital]]

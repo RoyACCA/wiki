@@ -45,8 +45,8 @@ claims: [{"id": "c0447f0a8", "text": "江波会见白俄罗斯国立信息与无
 
 ## Related
 - Sources: [[../raw/docs/e7687300_2025travelsky-aviation-ai-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_tech_innovation]]

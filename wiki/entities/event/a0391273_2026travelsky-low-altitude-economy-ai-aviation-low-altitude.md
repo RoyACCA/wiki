@@ -37,9 +37,9 @@ claims: [{"id": "c03846998", "text": "江波率队赴海南机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/a0391273_2026travelsky-low-altitude-economy-ai-aviation-low-altitude]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]

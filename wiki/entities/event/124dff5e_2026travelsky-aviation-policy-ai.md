@@ -61,8 +61,8 @@ claims: [{"id": "cabc379d1", "text": "江波一行在新疆看望慰问一线人
 
 ## Related
 - Sources: [[../raw/docs/124dff5e_2026travelsky-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

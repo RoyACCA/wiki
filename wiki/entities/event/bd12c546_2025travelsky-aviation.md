@@ -31,7 +31,7 @@ claims: [{"id": "cfe94ecaa", "text": "江波当选中国民航信息网络股份
 
 ## Related
 - Sources: [[../raw/docs/bd12c546_2025travelsky-aviation]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 
 ## Provenance

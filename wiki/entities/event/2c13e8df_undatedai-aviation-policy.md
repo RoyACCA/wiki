@@ -69,7 +69,7 @@ IDC机架租赁费用。需在嘉兴数据中心租赁IDC机架，并对部分�
 
 ## Related
 - Sources: [[../raw/docs/2c13e8df_undatedai-aviation-policy.docx]]
-- Entities: [[entity_ai]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

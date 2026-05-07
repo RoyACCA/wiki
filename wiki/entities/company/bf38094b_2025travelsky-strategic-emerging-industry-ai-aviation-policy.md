@@ -33,9 +33,9 @@ claims: [{"id": "c9199348a", "text": "江波拜访顺义区委区政府\n发布�
 
 ## Related
 - Sources: [[../raw/docs/bf38094b_2025travelsky-strategic-emerging-industry-ai-aviation-policy]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_strategic_emerging_industry]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_strategic_emerging_industry]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

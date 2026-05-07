@@ -37,7 +37,7 @@ claims: [{"id": "c5f30637f", "text": "江波出席中国航信人才工作专题
 
 ## Related
 - Sources: [[../raw/docs/3512988c_2025travelsky-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

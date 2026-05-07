@@ -37,16 +37,16 @@ claims: [{"id": "cbce2aefc", "text": "江波赴国家发展改革委汇报交流
 
 ## Related
 - Sources: [[../raw/docs/758378f9_2025travelsky-caac-ndrc-aviation-policy-low-altitude]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_caac]]
 - Entities: [[entity_ndrc]]
 - Entities: [[entity_ndrc]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cbce2aefc

@@ -41,14 +41,14 @@ claims: [{"id": "cfe7f4171", "text": "中国电科副总经理李季一行到访
 
 ## Related
 - Sources: [[../raw/docs/6753a537_2026travelsky-low-altitude-economy-aviation-ai-low-altitude.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cfe7f4171

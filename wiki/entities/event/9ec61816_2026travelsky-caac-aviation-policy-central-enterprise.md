@@ -53,11 +53,11 @@ claims: [{"id": "c7a2f47de", "text": "江波带队开展春节前安全检查\n�
 
 ## Related
 - Sources: [[../raw/docs/9ec61816_2026travelsky-caac-aviation-policy-central-enterprise]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_caac]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

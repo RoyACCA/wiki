@@ -35,10 +35,10 @@ claims: [{"id": "cbcf54af5", "text": "江波会见招商仁和人寿党委书记
 
 ## Related
 - Sources: [[../raw/docs/a22afb1b_2026travelsky-aviation-policy-central-enterprise]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cbcf54af5

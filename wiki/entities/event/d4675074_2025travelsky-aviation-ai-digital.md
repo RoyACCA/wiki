@@ -47,11 +47,11 @@ claims: [{"id": "cdc05dbb9", "text": "江波赴山西省神池县调研 央地�
 
 ## Related
 - Sources: [[../raw/docs/d4675074_2025travelsky-aviation-ai-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cdc05dbb9

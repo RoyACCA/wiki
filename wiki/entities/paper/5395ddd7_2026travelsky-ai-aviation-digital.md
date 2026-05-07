@@ -37,12 +37,12 @@ claims: [{"id": "c037d3862", "text": "江波会见电科数字党委书记、董
 
 ## Related
 - Sources: [[../raw/docs/5395ddd7_2026travelsky-ai-aviation-digital]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| c037d3862

@@ -82,9 +82,9 @@ claims: [{"id": "c99f8df76", "text": "\"腾云\"民航机场离港运维平台�
 
 ## Related
 - Sources: [[../raw/docs/eda756e9_undatedtravelsky-aviation-tech-innovation.docx]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_tech_innovation]]

@@ -39,11 +39,11 @@ claims: [{"id": "c2305acb7", "text": "江波一行赴新疆机场集团调研交
 
 ## Related
 - Sources: [[../raw/docs/e538e5a1_2026travelsky-ai-aviation-policy.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_ai]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

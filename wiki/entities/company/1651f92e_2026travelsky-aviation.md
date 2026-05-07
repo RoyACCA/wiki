@@ -42,7 +42,7 @@ claims: [{"id": "c5daa5375", "text": "江波率队深入一线开展安全保障
 
 ## Related
 - Sources: [[../raw/docs/1651f92e_2026travelsky-aviation]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 
 ## Provenance

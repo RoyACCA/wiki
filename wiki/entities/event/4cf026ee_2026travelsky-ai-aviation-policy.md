@@ -35,8 +35,8 @@ claims: [{"id": "cd093beb6", "text": "江波一行赴东北凯亚及东北研发
 
 ## Related
 - Sources: [[../raw/docs/4cf026ee_2026travelsky-ai-aviation-policy]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

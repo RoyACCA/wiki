@@ -43,7 +43,7 @@ claims: [{"id": "c0df99d0a", "text": "江波一行走访慰问退休老领导老
 
 ## Related
 - Sources: [[../raw/docs/ccabf663_2026travelsky-sasac-aviation-policy]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
 - Concepts: [[concept_aviation]]

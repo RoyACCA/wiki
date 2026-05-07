@@ -45,12 +45,12 @@ claims: [{"id": "cb9761f2a", "text": "江波调研中航信移动科技股份有
 
 ## Related
 - Sources: [[../raw/docs/7eefad8a_2025travelsky-ai-aviation-policy]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance
