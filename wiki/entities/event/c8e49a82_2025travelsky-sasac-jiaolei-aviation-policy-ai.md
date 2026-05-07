@@ -34,11 +34,11 @@ claims: [{"id": "cb49296f8", "text": "中国航信加入交通大模型创新与
 
 ## Related
 - Sources: [[../raw/docs/c8e49a82_2025travelsky-sasac-jiaolei-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
-- Entities: [[entity_jiaolei]]
-- Entities: [[entity_new_quality_productivity]]
+- Entities: [[person_jiaolei]]
+- Entities: [[concept_new_quality_productivity]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

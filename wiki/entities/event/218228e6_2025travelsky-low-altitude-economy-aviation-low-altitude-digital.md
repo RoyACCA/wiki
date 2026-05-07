@@ -40,8 +40,8 @@ claims: [{"id": "ccfedcf29", "text": "中国航信与无锡机场集团举行低
 
 ## Related
 - Sources: [[../raw/docs/218228e6_2025travelsky-low-altitude-economy-aviation-low-altitude-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]

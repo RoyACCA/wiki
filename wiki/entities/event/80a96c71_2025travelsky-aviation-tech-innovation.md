@@ -30,7 +30,7 @@ claims: [{"id": "c7fd9e618", "text": "“区块链智能合约+数字人民币�
 
 ## Related
 - Sources: [[../raw/docs/80a96c71_2025travelsky-aviation-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 

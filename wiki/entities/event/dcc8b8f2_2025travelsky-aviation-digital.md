@@ -40,7 +40,7 @@ claims: [{"id": "c74b9442c", "text": "中国航信助力机场数字化转型 �
 
 ## Related
 - Sources: [[../raw/docs/dcc8b8f2_2025travelsky-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
 

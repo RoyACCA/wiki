@@ -38,8 +38,8 @@ AI辅助编码技术工具CLLM在研发中心3种业务场景的开发过程中�
 
 ## Related
 - Sources: [[../raw/docs/5ac7bfc2_2025ai-llm-aviation-tech-innovation.txt]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_tech_innovation]]

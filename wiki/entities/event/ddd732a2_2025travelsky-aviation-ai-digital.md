@@ -32,7 +32,7 @@ claims: [{"id": "c4c4a29ea", "text": "中国航信数字帮扶平台荣获2025�
 
 ## Related
 - Sources: [[../raw/docs/ddd732a2_2025travelsky-aviation-ai-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

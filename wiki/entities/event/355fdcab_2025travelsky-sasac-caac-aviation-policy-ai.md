@@ -42,15 +42,15 @@ claims: [{"id": "cea4093d3", "text": "中国航信创新成果亮相世界人工
 
 ## Related
 - Sources: [[../raw/docs/355fdcab_2025travelsky-sasac-caac-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_sasac]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_ai]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cea4093d3

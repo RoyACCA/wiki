@@ -32,10 +32,10 @@ claims: [{"id": "ce8d38791", "text": "中国航信与中国电信云计算创新
 
 ## Related
 - Sources: [[../raw/docs/16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_llm]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

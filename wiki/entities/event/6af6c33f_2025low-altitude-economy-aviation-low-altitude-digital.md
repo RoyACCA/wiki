@@ -36,7 +36,7 @@ claims: [{"id": "c2e313059", "text": "信息服务部获得中国信息协会202
 
 ## Related
 - Sources: [[../raw/docs/6af6c33f_2025low-altitude-economy-aviation-low-altitude-digital.txt]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]

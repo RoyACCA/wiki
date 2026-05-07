@@ -38,7 +38,7 @@ claims: [{"id": "c5e960782", "text": "智能零售平台2.0版本在龙江航投
 
 ## Related
 - Sources: [[../raw/docs/85240de2_2025llm-aviation-policy-ai.txt]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

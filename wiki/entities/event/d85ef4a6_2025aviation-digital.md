@@ -32,7 +32,7 @@ claims: [{"id": "cf6988c76", "text": "智慧“民航+”公共安全平台荣�
 
 ## Related
 - Sources: [[../raw/docs/d85ef4a6_2025aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
 

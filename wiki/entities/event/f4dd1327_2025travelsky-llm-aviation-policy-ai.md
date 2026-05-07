@@ -40,10 +40,10 @@ claims: [{"id": "cfbf030a6", "text": "研发中心与航空数字化产品事业
 
 ## Related
 - Sources: [[../raw/docs/f4dd1327_2025travelsky-llm-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

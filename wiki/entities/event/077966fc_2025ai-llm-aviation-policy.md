@@ -36,12 +36,12 @@ claims: [{"id": "c7db76db7", "text": "结算公司智能问答“小鸿助手”
 
 ## Related
 - Sources: [[../raw/docs/077966fc_2025ai-llm-aviation-policy.txt]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

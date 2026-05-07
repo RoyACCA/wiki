@@ -38,8 +38,8 @@ claims: [{"id": "c1469b373", "text": "中国航信受邀参加第二届低空产
 
 ## Related
 - Sources: [[../raw/docs/0a036193_2025travelsky-low-altitude-economy-aviation-policy-low-altitude.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_low_altitude]]

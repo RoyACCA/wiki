@@ -30,10 +30,10 @@ claims: [{"id": "c563f9168", "text": "中国航信“电子商务平台赋能航
 
 ## Related
 - Sources: [[../raw/docs/ed7e42ac_2025travelsky-aviation-digital-central-enterprise.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

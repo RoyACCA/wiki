@@ -44,7 +44,7 @@ claims: [{"id": "ccc04c612", "text": "4月15日，国务院国资委召开中央
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_future_industry]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| ccc04c612

@@ -30,7 +30,7 @@ claims: [{"id": "cad1b9081", "text": "中国航信区块链创新产品补偿通
 
 ## Related
 - Sources: [[../raw/docs/910b4cde_2025travelsky-aviation-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 

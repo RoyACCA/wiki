@@ -42,8 +42,8 @@ claims: [{"id": "cd8cfdf03", "text": "中国航信助力民航数字化智能化
 
 ## Related
 - Sources: [[../raw/docs/4adf2afe_2025travelsky-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
 

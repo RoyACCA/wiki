@@ -32,9 +32,9 @@ claims: [{"id": "c9c20b530", "text": "中国航信与海南低空举行低空经
 
 ## Related
 - Sources: [[../raw/docs/861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]

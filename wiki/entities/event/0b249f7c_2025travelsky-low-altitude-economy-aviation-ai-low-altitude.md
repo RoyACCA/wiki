@@ -46,10 +46,10 @@ claims: [{"id": "c37f9a012", "text": "中国航信低空经济商务协同基础
 
 ## Related
 - Sources: [[../raw/docs/0b249f7c_2025travelsky-low-altitude-economy-aviation-ai-low-altitude.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_low_altitude]]

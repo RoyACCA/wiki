@@ -40,9 +40,9 @@ claims: [{"id": "c0f85e0ee", "text": "中国航信人工智能技术论坛举行
 
 ## Related
 - Sources: [[../raw/docs/e10be448_2026travelsky-ai-aviation-policy.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

@@ -36,9 +36,9 @@ claims: [{"id": "c23d4a944", "text": "赋能千万旅客！中国航信全流程
 
 ## Related
 - Sources: [[../raw/docs/affcdc2e_2025travelsky-new-quality-productivity-aviation-ai-future-industry.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_new_quality_productivity]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_new_quality_productivity]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_future_industry]]

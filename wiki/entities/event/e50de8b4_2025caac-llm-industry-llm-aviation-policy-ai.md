@@ -31,8 +31,8 @@ claims: [{"id": "c0d38729f", "text": "移动科技斩获2025年“数据要素×
 ## Related
 - Sources: [[../raw/docs/e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai.txt]]
 - Entities: [[entity_caac]]
-- Entities: [[entity_llm]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

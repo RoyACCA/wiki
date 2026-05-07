@@ -30,9 +30,9 @@ claims: [{"id": "c89296efd", "text": "13个项目获奖！中国航信2025年“
 
 ## Related
 - Sources: [[../raw/docs/15432652_2025travelsky-llm-industry-llm-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_llm]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

@@ -35,8 +35,8 @@ claims: [{"id": "cb31213b8", "text": "人工智能应用师助力智能化服务
 ## Related
 - Sources: [[../raw/docs/5fa429e9_2025miit-ai-llm-policy-digital.txt]]
 - Entities: [[entity_miit]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

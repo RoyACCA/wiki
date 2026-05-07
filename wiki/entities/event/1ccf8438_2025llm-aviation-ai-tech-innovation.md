@@ -30,7 +30,7 @@ claims: [{"id": "cc12010be", "text": "腾云PAM AI运维系统投产成功 开�
 
 ## Related
 - Sources: [[../raw/docs/1ccf8438_2025llm-aviation-ai-tech-innovation.txt]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_tech_innovation]]

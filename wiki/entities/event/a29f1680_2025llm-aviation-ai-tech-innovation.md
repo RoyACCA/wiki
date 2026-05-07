@@ -34,7 +34,7 @@ claims: [{"id": "cc6646264", "text": "零售技术平台助力运价大模型 �
 
 ## Related
 - Sources: [[../raw/docs/a29f1680_2025llm-aviation-ai-tech-innovation.txt]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_tech_innovation]]

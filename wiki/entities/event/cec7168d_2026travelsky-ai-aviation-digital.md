@@ -157,9 +157,9 @@ AI智能化在出租车蓄车场无人干预管理中的应用
 
 ## Related
 - Sources: [[../raw/docs/cec7168d_2026travelsky-ai-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

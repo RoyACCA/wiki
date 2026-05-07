@@ -39,8 +39,8 @@ claims: [{"id": "cc883fec0", "text": "全省首批！云数据公司成功入围
 
 ## Related
 - Sources: [[../raw/docs/fe19922c_2026travelsky-ai-aviation-policy.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

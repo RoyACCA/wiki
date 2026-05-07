@@ -34,8 +34,8 @@ claims: [{"id": "c8f982c9d", "text": "“航旅链”获评数字交通典型案
 
 ## Related
 - Sources: [[../raw/docs/f17408da_2025travelsky-ai-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

@@ -34,7 +34,7 @@ claims: [{"id": "cc8e86098", "text": "喜报！中国航信航空电子商务平
 
 ## Related
 - Sources: [[../raw/docs/037c35a9_2024travelsky-miit-aviation-policy-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_miit]]
 - Entities: [[entity_miit]]
 - Concepts: [[concept_aviation]]

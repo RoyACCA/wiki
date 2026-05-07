@@ -41,9 +41,9 @@ claims: [{"id": "ce6595a13", "text": "中国航信“启航大模型”荣获202
 
 ## Related
 - Sources: [[../raw/docs/1376bc0e_2025travelsky-ai-llm-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

@@ -31,9 +31,9 @@ claims: [{"id": "c398869aa", "text": "移动科技获2025年“数据要素×”
 ## Related
 - Sources: [[../raw/docs/1abe020c_2025miit-ai-llm-aviation-digital.txt]]
 - Entities: [[entity_miit]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]

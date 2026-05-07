@@ -30,7 +30,7 @@ claims: [{"id": "c40a94059", "text": "机场行李全向叉取智能机器人亮
 
 ## Related
 - Sources: [[../raw/docs/3a8d5223_2025travelsky-aviation-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 

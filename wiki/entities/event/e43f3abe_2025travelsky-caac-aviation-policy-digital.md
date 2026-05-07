@@ -34,7 +34,7 @@ claims: [{"id": "cf6ceb3a8", "text": "日照机场“行李全流程跟踪系统
 
 ## Related
 - Sources: [[../raw/docs/e43f3abe_2025travelsky-caac-aviation-policy-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_caac]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]

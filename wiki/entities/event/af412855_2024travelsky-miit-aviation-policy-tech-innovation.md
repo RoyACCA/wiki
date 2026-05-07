@@ -30,7 +30,7 @@ claims: [{"id": "c56b836d8", "text": "中国航信应用运维与监控系统成
 
 ## Related
 - Sources: [[../raw/docs/af412855_2024travelsky-miit-aviation-policy-tech-innovation.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_miit]]
 - Entities: [[entity_miit]]
 - Concepts: [[concept_aviation]]

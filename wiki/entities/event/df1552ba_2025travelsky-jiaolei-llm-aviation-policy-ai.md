@@ -32,10 +32,10 @@ claims: [{"id": "c51adbbd1", "text": "中国航信在首届全国综合交通运
 
 ## Related
 - Sources: [[../raw/docs/df1552ba_2025travelsky-jiaolei-llm-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_jiaolei]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[person_jiaolei]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

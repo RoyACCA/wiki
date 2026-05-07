@@ -32,12 +32,12 @@ claims: [{"id": "c2a7cf3c4", "text": "中国航信成功中标国航数字化签
 
 ## Related
 - Sources: [[../raw/docs/8ee47b17_2025travelsky-caac-aviation-policy-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Entities: [[entity_caac]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

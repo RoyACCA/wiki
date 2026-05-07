@@ -36,7 +36,7 @@ claims: [{"id": "c14081536", "text": "中国航信天信达签署IATA数字化�
 
 ## Related
 - Sources: [[../raw/docs/0b4513f1_2025travelsky-aviation-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_digital]]
 

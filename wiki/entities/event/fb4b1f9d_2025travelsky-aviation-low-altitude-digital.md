@@ -42,7 +42,7 @@ claims: [{"id": "cec545813", "text": "中国航信多个项目入选国家数据
 
 ## Related
 - Sources: [[../raw/docs/fb4b1f9d_2025travelsky-aviation-low-altitude-digital.txt]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_low_altitude]]
 - Concepts: [[concept_digital]]

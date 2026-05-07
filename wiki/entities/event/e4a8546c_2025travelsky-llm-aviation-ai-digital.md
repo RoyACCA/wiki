@@ -34,12 +34,12 @@ claims: [{"id": "ce058d6b2", "text": "喜报！“航信鸿鹄”入围中国信
 
 ## Related
 - Sources: [[../raw/docs/e4a8546c_2025travelsky-llm-aviation-ai-digital.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_ai]]
 - Concepts: [[concept_digital]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 - Concepts: [[concept_tech_innovation]]
 
 ## Provenance

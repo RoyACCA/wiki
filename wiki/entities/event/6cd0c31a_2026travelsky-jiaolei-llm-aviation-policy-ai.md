@@ -38,10 +38,10 @@ AI 驱动的危险品航空运输智能服务助手是中国航信运用人工�
 
 ## Related
 - Sources: [[../raw/docs/6cd0c31a_2026travelsky-jiaolei-llm-aviation-policy-ai.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_jiaolei]]
-- Entities: [[entity_ai]]
-- Entities: [[entity_llm]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[person_jiaolei]]
+- Entities: [[concept_ai]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]

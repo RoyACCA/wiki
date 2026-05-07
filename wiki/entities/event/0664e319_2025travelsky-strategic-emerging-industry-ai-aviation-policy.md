@@ -48,11 +48,11 @@ claims: [{"id": "c4164a87f", "text": "浙江南湖（中国航信）人工智能
 
 ## Related
 - Sources: [[../raw/docs/0664e319_2025travelsky-strategic-emerging-industry-ai-aviation-policy.txt]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_low_altitude_economy]]
-- Entities: [[entity_strategic_emerging_industry]]
-- Entities: [[entity_new_quality_productivity]]
-- Entities: [[entity_ai]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[concept_low_altitude_economy]]
+- Entities: [[concept_strategic_emerging_industry]]
+- Entities: [[concept_new_quality_productivity]]
+- Entities: [[concept_ai]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
