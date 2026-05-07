@@ -953,3 +953,20 @@
 ## [2026-05-07] lint | 1 issues found
 
 ## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] ingest | 启航大模型+千穰民航高质量数据集
+- Source: AI环信平台（aihuanxin.cn）页面抓取
+  - 启航大模型: https://aihuanxin.cn/qdlake/qdh-web/#/model/detail/travelsky/Qihang/type=org
+  - 千穰民航高质量数据集: https://aihuanxin.cn/qdlake/qdh-web/#/dataset/detail/travelsky/Qianrang_High-quality_Civil_Aviation/type=org
+- Method: Playwright SPA页面抓取 → 拦截API响应获取JSON数据
+- Raw: raw/docs/concept_qihang_large_model_raw.md, raw/docs/concept_qianrang_high_quality_civil_aviation_dataset_raw.md
+- New pages:
+  - concept_qihang_large_model (更新): 30B-80B, 2025-07-18发布, 双备案, AI环信平台
+  - concept_qianrang_high_quality_civil_aviation_dataset (新增): 200TB+, 民航全要素, AI环信平台
+- Updated: index.md (更新两条+新增一条, 总页数125→127)
+- Key findings:
+  - 启航大模型确认双备案（生成式AI服务+深度合成算法）
+  - 启航与千穰的关系：两者均属中航信AI产品线，千穰(>1000亿参数，单备案)vs启航(30B-80B，双备案)
+  - 千穰数据集是千穰大模型的训练数据底座
+
+## [2026-05-07] lint | 11 issues found

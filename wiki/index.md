@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 125 |
+| Last updated: 2026-05-07 | Total pages: 127 |
 
 ## Entities
 
@@ -155,8 +155,9 @@
 || [[concept_digital]] | 数字化，将物理世界信息转化为数字形式的过程，信息技术发展核心趋势 |
 || [[concept_travelsky_business_travel_approval_policy_2026]] | 航信集团办发〔2026〕2号《中国航信外出审批管理规定》，2026年4月15日发布，适用于公司各级领导干部及员工，明确离开驻地办公区域半天以上的外出审批程序。 |
 || [[concept_hanglv_chain_blockchain]] | 航旅链区块链平台：2022年发布，民航业自主可控区块链技术底座，获中国交通运输协会科技进步二等奖、中国科技产业化促进会科技一等奖，入选数字交通典型案例，现归口智能安全业务部 |
-|| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2023年8月发布，2024年7月网信办生成式AI服务备案（序号168，第四个央企备案大模型），参数规模1000亿+，非双备案。已落地智能客服、机坪监控、航班预测等20+民航机构 |
-|| [[concept_qihang_large_model]] | 启航大模型：资本运营与创新业务部研发，2025年4月网信办备案（序号394），双算法备案（序号121/181），国资央企第9家备案大模型 |
+| [[concept_qianrang_large_model]] | 千穰大模型：移动科技研发，2023年8月发布，2024年7月网信办生成式AI服务备案（序号168，第四个央企备案大模型），参数规模1000亿+，非双备案。已落地智能客服、机坪监控、航班预测等20+民航机构 |
+| [[concept_qianrang_high_quality_civil_aviation_dataset]] | 千穰民航高质量数据集：中航信构建，数据量200TB+，覆盖旅客/航班/航线等民航全要素，支持视觉算法/3D重建/多模态训练/语音识别等场景 |
+| [[concept_qihang_large_model]] | 启航大模型：中航信团队研发，参数规模30B-80B，2025年7月18日发布于AI环信平台，双备案（生成式AI服务+深度合成算法），适配国产算力，访问量132次 |
 || [[concept_gongxiangruixing_large_model]] | 共翔睿行大模型：航空数字化产品事业部研发，2025年12月31日大模型备案+2025年11月算法备案，完成"双备案" |
 || [[concept_baggage_robot]] | 机场行李全向叉取智能机器人：资本运营与创新业务部×南航大×中国移动，青岛胶东机场W13部署，全球首个民航行李转运场景全向叉取机器人，180件/小时，2026年归口机场数智业务部 |
 || [[concept_avicit_baggage_handling_system]] | 机场行李智能搬运系统：移动科技自研，集成千穰大模型+边云协同，2025年6月入选北京市首台（套）重大技术装备目录，国内领先 |
