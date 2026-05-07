@@ -48,7 +48,7 @@
 || [[89a27ab9_2025travelsky_strategic_emerging_industry_implementation]] | 航信集团发〔2025〕184号《中国民航信息集团有限公司战略性新兴产业实施办法》，2025年11月10日发布，明确战新产业"9+6"重点领域（行业关键软件/AI/低空经济/未来网络等），建立领导小组-科技管理部-任务单位三级管理体系，任务纳入年度绩效考核 |
 || [[855cc8b6_2024travelsky-aviation-policy-digital]] | 中国航信荣获中央企业先进计算创新联合体"2024年度创新成果奖"，"中国民航电子商务数字化平台自主可控技术研究与示范应用"项目获奖 |
 || [[422c4a10_2026central-enterprise-tech-innovation]] | 国资报告2026年第4期：马大明/刘卓《央企创新联合体扩围提质》，五大路径破解主体协同不广/需求转化不深/资源利用不够/利益分配不清/激励保障不足 |
-|| || [[61defa02_2025travelsky-new-quality-productivity-ai-aviation-future-industry]] | 中国航信智能创新产品主题发布会顺利召开 |
+| || [[61defa02_2025travelsky-new-quality-productivity-ai-aviation-future-industry]] | 中国航信智能创新产品主题发布会顺利召开 |
 
 ### event
 
@@ -115,8 +115,10 @@
 || [[0b4513f1_2025travelsky-aviation-digital]] | 天信达签署IATA数字化领导力宪章 以标准引领航空货运数字化未来 |
 || [[4adf2afe_2025travelsky-aviation-digital]] | 中国航信助力民航数字化智能化学术论坛 |
 || [[861ebc02_2025travelsky-low-altitude-economy-aviation-low-altitude-digital]] | 中国航信与海南低空举行低空经济战略合作签约仪式 |
-|| [[16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital]] | 中国航信与中国电信云计算创新联合体深度合作再结硕果 |
-|| [[e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai]] | 移动科技斩获2025年"数据要素×"大赛北京赛区一等奖等多个奖项 |
+||| [[16f2ddb8_2025travelsky-llm-industry-llm-aviation-ai-digital]] | 中国航信与中国电信云计算创新联合体深度合作再结硕果 ||
+||| [[e50de8b4_2025caac-llm-industry-llm-aviation-policy-ai]] | 移动科技斩获2025年"数据要素×"大赛北京赛区一等奖等多个奖项 ||
+||| [[event_2026_travelsky-daily-briefing-0430]] | 航信专报第79期（2026-04-30）：五一假期民航1100万人次、数字经济政策要闻 ||
+||| [[event_2026_travelsky-daily-briefing-0506]] | 航信专报第80期（2026-05-06）：国资委产权管理会议、港澳民航合作、一季度航司全部盈利、跨航司签转服务、数据资源调查报告 ||
 
 ## Concepts
 
@@ -172,11 +174,11 @@
 ||| [[3fd1cfab_2025travelsky-sasac-jiaolei-aviation-policy-ai]] | 梁海峰出席中国航信人工智能技术交流活动 |
 ||| [[14697e11_2025ai-aviation-digital]] | 梁海峰应邀赴中国航协做"AI赋能民航"主题讲座 |
 ||| [[d87fab07_2025travelsky-ai-aviation-policy]] | 人工智能创新应用工程技术研究中心召开2025年技术委员会会议 |
-|||| [[fe64ac34_2025travelsky-miit-new-quality-productivity-aviation-policy-future-industry]] | 黄荣顺应邀出席第八届数字中国建设峰会开幕式 |
-|||| [[1c9f8726_2025travelsky-caac-low-altitude-economy-aviation-policy-low-altitude]] | 中国航信参加第三届CATA航空大会 |
-|||| [[355fdcab_2025travelsky-sasac-caac-aviation-policy-ai]] | 中国航信亮相2025世界人工智能大会，"智慧民航数智化新型应用"入选首批央企战略性高价值场景（民航唯一），千穰非双备案 |
-|||| [[676622b6_2025travelsky-ai-llm-aviation-tech-innovation]] | 中国航信团委举办"AI大讲堂" |
-|||| [[8aa13b14_2025travelsky-ai-llm-aviation-digital]] | 李劲松参加2025中国移动全球合作伙伴大会 |
+||| [[fe64ac34_2025travelsky-miit-new-quality-productivity-aviation-policy-future-industry]] | 黄荣顺应邀出席第八届数字中国建设峰会开幕式 |
+||| [[1c9f8726_2025travelsky-caac-low-altitude-economy-aviation-policy-low-altitude]] | 中国航信参加第三届CATA航空大会 |
+||| [[355fdcab_2025travelsky-sasac-caac-aviation-policy-ai]] | 中国航信亮相2025世界人工智能大会，"智慧民航数智化新型应用"入选首批央企战略性高价值场景（民航唯一），千穰非双备案 |
+||| [[676622b6_2025travelsky-ai-llm-aviation-tech-innovation]] | 中国航信团委举办"AI大讲堂" |
+||| [[8aa13b14_2025travelsky-ai-llm-aviation-digital]] | 李劲松参加2025中国移动全球合作伙伴大会 |
 ||| [[baadf6da_2025travelsky-ai-aviation-digital]] | 梁海峰应邀参加中国东航科技创新大会 |
 ||| [[94c38684_2025travelsky-sasac-strategic-emerging-industry-aviation-policy-ai]] | 中国航信受邀参加国资央企"AI+"行动示范基地揭牌仪式 |
 ||| [[9b617fd4_2026travelsky-aviation-policy-low-altitude]] | 江波一行赴中国数联调研交流 |
@@ -199,16 +201,18 @@
 ||| [[event_2025_qihang_double_filing]] | 启航大模型通过国家网信办与国资委双备案（2025年4月，序号394，双算法备案） |
 ||| [[event_2025_gongxiangruixing_double_filing]] | 共翔睿行大模型通过国家算法和大模型双备案（2025年12月31日大模型+2025年11月算法） |
 ||| [[event_2025_qingdao_baggage_robot_deployment]] | 机场行李全向叉取智能机器人在青岛胶东国际机场W13转盘部署（2025年8月8日媒体开放日） |
-| [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
-|| [[event_2025travelsky-zhineng-civil-aviation]] | 智慧民航数智化新型应用：国资委AI环信典型案例（ID=21，2025-10-15），以千穰大模型为核心，含建设背景/技术特点/成效/展望；千穰仅有生成式AI单备案（非双备案） |
-| [[event_2025travelsky-central-enterprise-ai-scenario]] | 国资委首批战略性高价值场景申报材料：含国产化民航大模型（千穰）、机场行李智能搬运系统、民航舱音识别三个场景，申报名"国产化民航大模型"终审改"智慧民航数智化新型应用" |
-| [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
-||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
-||| [[af412855_2024travelsky-miit-aviation-policy-tech-innovation]] | 中国航信应用运维与监控系统获评工信部"2024年信息技术应用创新典型应用案例" |
-||| [[8ee47b17_2025travelsky-caac-aviation-policy-digital]] | 中国航信成功中标国航数字化签派放行系统建设项目 |
-||| [[3a8d5223_2025travelsky-aviation-tech-innovation]] | 机场行李全向叉取智能机器人亮相青岛胶东国际机场转场4周年媒体开放日 |
-||| [[ch01_smart_travel_assistant_agent]] | 第1章 智能出行助手：基于大模型与Agent驱动的智能出行助手，天骄航空/龙江航空投产，RAG+多Agent协同 |
-||| [[ch02_smart_ticket_search_nlp_rag]] | 第2章 智能机票搜索：基于NLP+RAG的智能机票搜索，天骄航空/龙江航空投产，适老化+知识赋能 |
+||| [[event_2025_baggage_robot_central_enterprise_ai_defense]] | 机场行李全向叉取智能机器人系统参加中央企业AI战略性高价值场景终审答辩（2025年7月，郭卫泳/王东旭汇报） |
+||| [[event_2025travelsky-zhineng-civil-aviation]] | 智慧民航数智化新型应用：国资委AI环信典型案例（ID=21，2025-10-15），以千穰大模型为核心，含建设背景/技术特点/成效/展望；千穰仅有生成式AI单备案（非双备案） |
+||| [[event_2025travelsky-central-enterprise-ai-scenario]] | 国资委首批战略性高价值场景申报材料：含国产化民航大模型（千穰）、机场行李智能搬运系统、民航舱音识别三个场景，申报名"国产化民航大模型"终审改"智慧民航数智化新型应用" |
+|||| [[event_2025_avicit_baggage_system_beijing_first_list]] | 移动科技机场行李智能搬运系统入选北京市2025年第一批首台（套）重大技术装备目录（机器人及智能制造装备-工业机器人） |
+|||| [[910b4cde_2025travelsky-aviation-tech-innovation]] | 补偿通区块链产品助力西藏机场集团，开启智慧民航新篇章 |
+|||| [[af412855_2024travelsky-miit-aviation-policy-tech-innovation]] | 中国航信应用运维与监控系统获评工信部"2024年信息技术应用创新典型应用案例" |
+|||| [[8ee47b17_2025travelsky-caac-aviation-policy-digital]] | 中国航信成功中标国航数字化签派放行系统建设项目 |
+|||| [[3a8d5223_2025travelsky-aviation-tech-innovation]] | 机场行李全向叉取智能机器人亮相青岛胶东国际机场转场4周年媒体开放日 |
+|||| [[event_2026_travelsky-daily-briefing-0429]] | 2026年4月29日第78期航信专报：中央政治局会议/AI+行动、商务部服务出口、国资央企重组、民航客座率85%、燃油费涨价、东航全航网候补、杭州深圳快线、工信部AI+软件行动、模数共振行动等9条 |
+|||| [[event_2026_travelsky-daily-briefing-0507]] | 2026年5月7日第81期航信专报：五一假期消费民航数据、韩国航司获中国航权、AI超售纠纷等9条 |
+|||| [[ch01_smart_travel_assistant_agent]] | 第1章 智能出行助手：基于大模型与Agent驱动的智能出行助手，天骄航空/龙江航空投产，RAG+多Agent协同 |
+|||| [[ch02_smart_ticket_search_nlp_rag]] | 第2章 智能机票搜索：基于NLP+RAG的智能机票搜索，天骄航空/龙江航空投产，适老化+知识赋能 |
 ||| [[ch03_passenger_self_service_agent]] | 第3章 旅客自助服务：基于大模型的智能体在旅客自助服务场景中的创新应用 |
 ||| [[ch04_airport_operations_ai_system]] | 第4章 机场运行管理：基于大模型的机场运行管理数智分析系统，美兰机场部署 |
 ||| [[ch05_deepseek_smart_customer_service]] | 第5章 DeepSeek客服：基于DeepSeek引擎的智能客服系统，华东凯亚 |
@@ -239,7 +243,7 @@
 
 || File | Summary ||
 |---|---|
-|| [[query_20260429_15th_five_year_ai]] | 整理十五五规划中AI相关论述，形成三要素（算力/算法/数据）+AI+行动+治理的统一框架 |
+||| [[query_20260429_15th_five_year_ai]] | 整理十五五规划中AI相关论述，形成三要素（算力/算法/数据）+AI+行动+治理的统一框架 |
 
 ## Review (Needs Human Confirmation)
 

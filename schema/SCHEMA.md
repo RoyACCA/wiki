@@ -1,7 +1,7 @@
-# Wiki Schema — LLM Wiki v1.7.0
+# Wiki Schema — LLM Wiki v1.7.1
 
 ## Version
-- **v1.7.0** (2026-05-07): **New**: `split_pdf_chapters.py` — 支持按章节/关键词拆分大型 PDF，入库中国航信AI案例汇编（第一期）27章节；`rename_ai_cases.py` — 批量修复 slug 冲突；`batch_ingest.py` — 多文档并发入库
+- **v1.7.1** (2026-05-07): **Ingest**: 网页搜索结果入库 — 2026年国资委AI+专项行动、十五五规划纲要发布、工信部"模数共振"行动；新增event页面2个、concept页面1个、raw源文件2个；更新entity_sasac/entity_miit并补充claims字段；wikilink格式已统一为underscore
 - **v1.6.0** (2026-05-06): **Fix**: `estimate_confidence()` 去除对元数据字段（发布时间/浏览量）的误扣分；`detect_page_type()` 新增事件关键词（获批/入选/荣获/获颁/首次），避免被"公司"规则误判
 - **v1.5.9** (2026-05-06): **New**: ingest.py 末尾新增 `auto_git_commit()`，入库后自动 git add + commit，触发 post-commit hook；wiki 初始化 git 仓库
 

@@ -28,6 +28,34 @@
 - Temp cleared: /home/agentuser/temp/
 - Total wiki pages: 15
 
+## [2026-05-07] ingest | 网页政策动态入库：国资委AI+/十五五规划/工信部模数共振
+### 入库内容
+1. **2026年国资委部署央企AI+专项行动**（event页面）
+   - Raw: raw/docs/eb6a5c1a_2026sasac-ai-action-central-enterprise.md
+   - 来源: 国资委官网，搜索关键词 site:sasac.gov.cn
+   - 关键claim: 2025年央企战新产业营收超12万亿元，三个"突出"部署，重组整合四方向
+
+2. **2026年十五五规划纲要发布**（event页面）
+   - Raw: raw/docs/f1c3d9e2_2026-15th-five-year-plan-future-industry-release.md
+   - 来源: 发改委官网，搜索关键词 site:ndrc.gov.cn
+   - 关键claim: 九大战略性新兴产业，六大未来产业方向，新增"融合化"
+
+3. **工信部"模数共振"行动2026**（concept页面）
+   - 来源: 工信微报，2026年4月
+   - 关键claim: 20个重点行业，2026年底目标，模数共振创新联合体
+
+### 页面更新
+- entity_sasac.md: 补充claims字段，更新summary（新增2025年数据）
+- entity_miit.md: 补充claims字段，更新summary（新增"模数共振"行动）
+
+### 版本更新
+- SKILL.md: v1.7.0 → v1.7.1
+- SCHEMA.md: v1.7.0 → v1.7.1
+- wiki/log.md: 新增本条目
+
+### Temp目录
+- 已清空（本次为网页内容，无PDF上传）
+
 ## [2026-04-29] ingest | 十五五规划纲要 + 人工智能+民航实施意见
 ### Doc 1: 十五五规划纲要
 - Source: 2026-03-13-中华人民共和国国民经济和社会发展第十五个五年规划纲要.md (182KB, 1262行)
@@ -986,3 +1014,128 @@
 ## [2026-05-07] lint | 4 issues found
 
 ## [2026-05-07] lint | 4 issues found
+
+## [2026-05-07] lint | 3 issues found
+
+## [2026-05-07] ingest | Web search results → raw/docs + index update
+- 3 raw docs saved to raw/docs/:
+  - eb6a5c1a_2026sasac-ai-action-central-enterprise.md (5.2KB, 国资委官网)
+  - 1eb8e3a9_2026-01-26_ministry-10-key-tasks.md (4.3KB, 人民网/工信微报)
+  - f8c43e27_2026-04-28_modu-data-resonance-action.md (14KB, 安全内参)
+- Index entries updated:
+  - event_eb6a5c1a: summary增强 + 专家解读claims（杜天佳/王盼盼）
+  - concept_moshu_resonance_action_2026: 全文+官方解读增强
+- New event page created: event_2026_miit_10_key_tasks (工信部2026年十个方面重点工作)
+- New index entry: event_2026_miit_10_key_tasks
+
+## [2026-05-07] ingest | 航信专报第81期（0507）
+- Source: raw/docs/f54ec5bb_2026-travelsky-daily-briefing-0507.docx
+- SHA256: f54ec5bbfdc2a25b1f0cfb2748d60a687d8ed050379087c854f459174832f460
+- Type: event (daily briefing, 9 news items)
+- Domain: aviation, policy, ai, central-enterprise, macro
+- Confidence: 0.95
+- New wiki page: event_2026_travelsky-daily-briefing-0507
+- Claims: 8 data/policy claims extracted (五一消费/民航/交通/出入境/韩国航权/AI超售等)
+- Dedup: new (exact + MinHash similarity check passed)
+- Index entry added: event_2026_travelsky-daily-briefing-0507
+
+## [2026-05-07] lint | 2 issues found
+
+## [2026-05-07] lint | 986 issues found
+
+## [2026-05-07] lint | 986 issues found
+
+## [2026-05-07] lint | 986 issues found
+
+## [2026-05-07] lint | 986 issues found
+
+## [2026-05-07] lint | 979 issues found
+
+## [2026-05-07] lint | 979 issues found
+
+## [2026-05-07] ingest | 航信专报第77期（0428）每日要闻专报
+- Source: ylm@travelsky.com.cn 邮件附件 (5.2MB)
+- Raw: raw/docs/29781e4b_2026-travelsky-daily-briefing-0428.docx
+- Dedup: new (SHA256: 29781e4b60..., similarity: 0.07)
+- Docx text extracted: 10条要闻
+- Pages created:
+  - wiki/events/event_2026_travelsky-daily-briefing-0428.md
+- Index: append entry
+- Total wiki pages: 130
+
+## [2026-05-07] lint | 19 issues found
+
+## [2026-05-07] lint | 23 issues found
+
+## [2026-05-07] ingest | 航信专报第79期（0430）每日要闻
+- Source: ylm@travelsky.com.cn 邮件附件 docx
+- Mail file: 1778124702.M710155P354856Q29R004186fa3bbf6946.localhost
+- Attachment: 每日要闻（航信专报） 2026年第79期（0430）.docx
+- SHA256: 28fb1a32e7aa274a4530891be35ac49f9f0190df8113cf2150fc17cd7b17ac26
+- Raw: raw/docs/28fb1a32_2026-travelsky-daily-briefing-0430.docx
+- Dedup: new
+- Docx text extracted: 10条要闻（五一假期民航、数据经济政策）
+- Pages created:
+  - wiki/events/event_2026_travelsky-daily-briefing-0430.md
+- Index: append entry
+- Total wiki pages: 130
+
+## [2026-05-07] lint | 22 issues found
+
+## [2026-05-07] lint | 20 issues found
+
+## [2026-05-07] ingest | 航信专报第78期（0429）
+- Source: ylm@travelsky.com.cn 邮件附件 docx
+- Mail file: 1778124691.M207721P354800Q16Re5af64a4876b8784.localhost
+- Attachment: 每日要闻（航信专报） 2026年第78期（0429）.docx
+- SHA256: 4f1a5e43578608fb760244bb219d7be2079be8723f0d4cb535207de24a8cbd6a
+- Raw: raw/docs/4f1a5e43_2026-travelsky-daily-briefing-0429.docx
+- Dedup: new (exact + MinHash similarity check passed)
+- Docx text extracted: 9条要闻（政治局会议/商务部/国资央企/民航客座率/燃油费/东航候补/杭深快线/工信部AI+软件/模数共振）
+- Pages created:
+  - wiki/events/event_2026_travelsky-daily-briefing-0429.md
+- Index: append entry
+
+## [2026-05-07] lint | 20 issues found
+
+## [2026-05-07] lint | 20 issues found
+
+## [2026-05-07] ingest | 航信专报第80期（0506）
+- Source: ylm@travelsky.com.cn 邮件附件 docx
+- Mail file: 1778124715.M120432P354927Q44Rf735786098552789.localhost
+- Attachment: 每日要闻（航信专报） 2026年第80期（0506）.docx
+- SHA256: a4f536c8b86ac6a10fbb4ef68768f12113f47db3e07c97c269d216c57eeae219
+- Raw: raw/docs/a4f536c8_2026-travelsky-daily-briefing-0506.docx
+- Dedup: new
+- Docx text extracted: 10条要闻（国资委产权管理会议、港澳民航合作、一季度航司全部盈利、跨航司签转服务、五一假期运输、文旅消费、数据资源调查、数字中国建设、Amadeus收购、全球航空品牌）
+- Pages created:
+  - wiki/events/event_2026_travelsky-daily-briefing-0506.md
+- Index: append entry
+
+## [2026-05-07] lint | 1004 issues found
+
+## [2026-05-07] lint | 1004 issues found
+
+## [2026-05-07] lint | 1004 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found (auto-fixed: 1)
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found
+
+## [2026-05-07] lint | 1003 issues found

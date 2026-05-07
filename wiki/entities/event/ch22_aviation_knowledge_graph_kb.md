@@ -145,7 +145,7 @@ claims: [{"id": "c99350ad6", "text": "【第22章】民航领域知识图谱赋�
 ## Related
 - Sources: [[../raw/docs/0e5ff6b0_undatedllm-aviation-policy-ai.txt]]
 - Entities: [[concept_llm]]
-- Entities: [[entity_llm]]
+- Entities: [[concept_llm]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_ai]]
