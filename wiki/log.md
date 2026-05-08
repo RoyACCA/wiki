@@ -69,3 +69,54 @@
 ## [2026-05-07] lint | 14 issues found
 
 ## [2026-05-07] lint | 15 issues found
+
+## [2026-05-07] lint | 16 issues found
+
+## [2026-05-07] lint | 16 issues found
+
+## [2026-05-07] update | AI里程碑论文批量入库（9篇）
+
+入库9篇AI里程碑论文，全部进入review队列：
+- paper_transformer_attention (1706.03762) → review/41c0ab87
+- paper_bert (1810.04805) → review/5692a551  
+- paper_gpt3 (2005.14165) → review/89018f77
+- paper_gan (1406.2661) → review/ff5819e3
+- paper_resnet (1512.03385) → review/1e0651b6
+- paper_clip (2103.00020) → review/ee9e13e3
+- paper_ddpm (2006.11239) → review/3597bc1c
+- paper_instructgpt (2203.02155) → review/c1984bb5
+- paper_llama (2302.13971) → review/2e663675
+raw文件存储于 raw/papers/
+PDF原文存储于 /home/agentuser/temp/papers/
+
+
+## [2026-05-07] lint | 16 issues found
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] lint | 6 issues found
+
+## [2026-05-07] lint | 6 issues found
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] lint | 1 issues found
+
+## [2026-05-07] update | Review队列全量清空（14件）
+
+批量处理review队列14件：
+- 9篇AI里程碑论文入库（paper/）：Transformer/BERT/GPT-3/GAN/ResNet/CLIP/DDPM/InstructGPT/LLaMA
+- 5篇航信内部文档转正（event/）：梁海峰系列活动3件+江波时间戳事件+AI家交流活动
+- QA通过，HIGH×0
+
+## [2026-05-08] lint | 3 issues found
+
+## [2026-05-08] lint | 4 issues found
+
+## [2026-05-08] lint | 3 issues found
+
+## [2026-05-08] lint | 3 issues found
+
+## [2026-05-08] lint | 2 issues found
+
+## [2026-05-08] lint | 1 issues found

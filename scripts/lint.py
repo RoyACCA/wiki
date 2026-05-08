@@ -327,11 +327,13 @@ def find_orphan_pages(wiki_path: str) -> list[str]:
 
     for root, dirs, files in os.walk(wiki_dir):
         for f in files:
-            if not f.endswith('.md') or f in ['index.md', '_redirects.yaml'] or f.startswith('log'):
+            if not f.endswith('.md') or f in ['_redirects.yaml'] or f.startswith('log'):
                 continue
             fpath = os.path.join(root, f)
             rel = fpath.replace(wiki_path + '/', '')
-            all_pages.append(rel)
+            # index.md is excluded from all_pages (doesn't need self-check) but its links count as inbound
+            if f != 'index.md':
+                all_pages.append(rel)
 
             try:
                 with open(fpath, 'r', encoding='utf-8') as fp:
@@ -532,7 +534,7 @@ def check_page_size(wiki_path: str, threshold: int = 500) -> list[dict]:
 
     for root, dirs, files in os.walk(wiki_dir):
         for f in files:
-            if not f.endswith('.md') or f in ['index.md', 'log.md', '_redirects.yaml']:
+            if not f.endswith('.md') or f in ['index.md', '_redirects.yaml'] or f.startswith('log'):
                 continue
             fpath = os.path.join(root, f)
             rel = fpath.replace(wiki_path + '/', '')

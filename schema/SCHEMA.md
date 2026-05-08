@@ -1,6 +1,7 @@
-# Wiki Schema — LLM Wiki v1.8.3
+# Wiki Schema — LLM Wiki v1.8.4
 
 ## Version
+- **v1.8.4** (2026-05-08): **lint.py 修复两处 bug**: ① `find_orphan_pages()` inbound map 构建漏扫 `index.md` 链接（`index.md` 本身不加入 `all_pages`，但其 wikilink 应计入 inbound），导致通过 index.md 入口的概念页面产生误报；② `check_page_size()` 只豁免 `log.md`，未豁免 `log-YYYY-MM.md` 轮转文件，导致历史日志产生 Page Size 误报；两处修复后 lint 全绿
 - **v1.8.3** (2026-05-07): **进化机制 v1**: lint.py --fix 新增 index completeness 自动修复（auto_fix_index_completeness）；新增 log 轮转自动化（auto_fix_log_rotation）；lint.py skip log* 轮转文件（orphan/frontmatter/index_completeness 三处）；修复 post-commit hook 漏扫 log-YYYY-MM.md
 - **v1.8.2** (2026-05-07): **Fix orphan pages false positive**: lint.py skip_types 新增 `'company'`，entity-company 类型页面不再产生 orphan 告警；迁移 00cbbaec_2025travelsky-aviation.md（company→event），修复 broken link 历史遗留问题
 - **v1.8.1** (2026-05-07): **51-doc batch ingest**: 中国航信新闻/专报/政策文档入库（35 event + 14 company + 2 paper）；修复ingest.py/slug_generator.py无扩展名文件处理；修复index.md漏加16条+错误格式

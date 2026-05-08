@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 133 |
+| Last updated: 2026-05-07 | Total pages: 275 |
 
 ## Entities
 
@@ -66,6 +66,15 @@
 | [[5395ddd7_2026travelsky-ai-aviation-digital]] | 江波会见电科数字党委书记、董事长吴振锋一行 |
 | [[c11c49cc_2025travelsky-low-altitude-economy-new-quality-productivity-aviation-low-altitude-future-industry]] | 江波会见星网应用院党委副书记、总经理杨晶 |
 | [[21464673_travelsky_reform_agenda_2026]] | 中国航信2026年改革工作台账：五大方向（AI+专项行动/民航AI重点实验室/数字化转型/战新产业/大规模设备更新），2026年底目标完成总体任务70%以上 |
+| [[paper_transformer]] | Attention Is All You Need (2017) - Transformer架构，用注意力机制替代循环神经网络 |
+| [[paper_bert]] | BERT: Pre-training of Deep Bidirectional Transformers (2018) - 双向Transformer预训练方法 |
+| [[paper_gpt3]] | Language Models are Few-Shot Learners (2020) - GPT-3，1750亿参数，few-shot学习 |
+| [[paper_gan]] | Generative Adversarial Networks (2014) - GANs，生成对抗网络框架 |
+| [[paper_resnet]] | Deep Residual Learning for Image Recognition (2015) - ResNet，残差学习解决深度网络训练问题 |
+| [[paper_clip]] | Learning Transferable Visual Models From Natural Language Supervision (2021) - CLIP，视觉模型从自然语言监督学习 |
+| [[paper_ddpm]] | Denoising Diffusion Probabilistic Models (2020) - DDPM，扩散概率模型用于图像生成 |
+| [[paper_instructgpt]] | Training language models to follow instructions with human feedback (2022) - InstructGPT，RLHF对齐语言模型 |
+| [[paper_llama]] | LLaMA: Open and Efficient Foundation Language Models (2023) - LLaMA，Meta开源基础模型7B-65B |
 
 ### event
 
@@ -184,7 +193,8 @@
 
 || File | Summary ||
 |---|---|
-|| [[concept_ai-transportation-policy]] | 交通运输部等7部位联合AI政策（2027/2030目标），含智慧民航、低空经济 |
+|| [[concept_dedao_adult_internal_friction]] | 得到头条：成年人最大的内耗——拼命优化错误的东西，需求本质是建议而非定律 |
+| [[concept_ai-transportation-policy]] | 交通运输部等7部位联合AI政策（2027/2030目标），含智慧民航、低空经济 |
 || [[concept_smart_civil_aviation]] | 智慧民航：航线智能优化、智慧空管、无感通行、低空航空 |
 || [[concept_low_altitude_economy]] | 低空经济：新型航空器/无人机/城市空中交通，本政策明确鼓励 |
 || [[concept_low_altitude_economy_standards]] | 低空经济标准体系建设指南（2025版）：五大领域（A-E）、2027基本建立、2030超300项标准 |
@@ -225,6 +235,7 @@
 || [[concept_avicit_baggage_handling_system]] | 机场行李智能搬运系统：移动科技自研，集成千穰大模型+边云协同，2025年6月入选北京市首台（套）重大技术装备目录，国内领先 ||
 || [[concept_moshu_resonance_action_2026]] | 工信部"模数共振"行动2026 ||
 
+| [[concept_dedao_adult_internal_friction]] | 得到头条：成年人最大的内耗——拼命优化错误的东西，需求本质是建议而非定律 |
 ## Events
 
 ||| File | Summary |
@@ -243,11 +254,11 @@
 || [[baadf6da_2025travelsky-ai-aviation-digital]] | 梁海峰应邀参加中国东航科技创新大会 |
 || [[94c38684_2025travelsky-sasac-strategic-emerging-industry-aviation-policy-ai]] | 中国航信受邀参加国资央企"AI+"行动示范基地揭牌仪式 |
 || [[9b617fd4_2026travelsky-aviation-policy-low-altitude]] | 江波一行赴中国数联调研交流 |
-|| [[59d6f98b_2025travelsky-jiaolei-ai-aviation-central-enterprise]] | 梁海峰出席中国航信人工智能技术交流活动 |
-|| [[28a4bffe_2026tech-innovation]] | 梁海峰出席业务与技术系列研讨会 |
-|| [[3c552178_2025travelsky-ai-aviation-tech-innovation]] | Ai家举办2025年第四期中国航信人工智能技术交流活动 |
-|| [[2df0a2bb_2026travelsky-aviation]] | 江波赴运行中心现场指导大型主机系统时间戳问题修复工作 |
-|| [[8d951ca6_2025travelsky-ai-aviation]] | 梁海峰为Ai家人工智能技术交流活动做专题讲座 |
+| [[event_2025_travelsky_ai_tech_exchange]] | 梁海峰出席中国航信人工智能技术交流活动 |
+| [[event_2026_rnd_tech_seminar]] | 梁海峰出席业务与技术系列研讨会 |
+| [[event_2025_travelsky_ai_tech_exchange_q4]] | Ai家举办2025年第四期中国航信人工智能技术交流活动 |
+| [[event_2026_travelsky_timestamp_fix]] | 江波赴运行中心现场指导大型主机系统时间戳问题修复工作 |
+| [[event_2025_travelsky_ai_lecture]] | 梁海峰为Ai家人工智能技术交流活动做专题讲座 |
 || [[event_2025_hanglv_chain_transport_award]] | 航旅链获2024年度中国交通运输协会科技进步二等奖 |
 || [[event_2025_hanglv_chain_digital_transport_case]] | 航旅链获2025年数字交通典型案例奖 |
 || [[event_2025_hanglv_chain_xinchuang]] | 航旅链成为国内首个通过三项信创认证的区块链平台 |
