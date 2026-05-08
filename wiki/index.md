@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 275 |
+| Last updated: 2026-05-07 | Total pages: 277 |
 
 ## Entities
 
@@ -189,6 +189,7 @@
 || [[d4da1c23_undatedai-aviation-policy]] | 航信专报0427：首季财政收支、知识产权AI快保护、民航局机票平台整治、深圳机场RNP AR首飞、五一出行数据等 ||
 || [[eda756e9_undatedtravelsky-aviation-tech-innovation]] | "腾云"机场离港运维平台智能化案例（230家机场接入，故障定位从小时级压至分钟级，获民航优秀安全管理案例） ||
 
+||| [[9da5d623_china_southern_ai_strategy_report]] | 关于南航深入实施创新驱动与AI赋能战略 引领高质量发展的报告：战略引领（十五五/交通强国/AI+行动）、创新驱动六大行动（研发投入16.38亿/战新收入占比38.7%/专利758件）、AI赋能（500卡GPU/207场景/119投产）、四大创新平台 |
 ## Concepts
 
 || File | Summary ||
