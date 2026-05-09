@@ -319,6 +319,7 @@
 || [[ch26_hetai_open_platform]] | 第26章 HETAI开放平台：HETAI开放平台，嘉兴分公司 |
 || [[ch27_jiaxing_green_ai_datacenter]] | 第27章 嘉兴智算中心：中国航信嘉兴智算中心绿色低碳实践 |
 
+||| wiki/entities/event/4123fd78_2020aviation]] | （在中華人民共和國註冊成立的股份有限公司）。（股份代號：00696）。中國民航信息網絡股份有限公司（「本公司」連同附屬公司合稱「本集團」）是中國航空旅遊業信息技術解決方案。 |
 ## Queries
 
 || File | Summary ||
