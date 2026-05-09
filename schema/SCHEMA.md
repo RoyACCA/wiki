@@ -1,6 +1,7 @@
-# Wiki Schema — LLM Wiki v1.8.6
+# Wiki Schema — LLM Wiki v1.8.7
 
 ## Version
+- **v1.8.7** (2026-05-09): **Bug fix**: lint.py `auto_fix_index_completeness()` 两处 bug：① event 类型 prefix 缺少 `[[`，导致生成 `||| path]]`；② slug 取值未剥离目录前缀，导致写入 `||| wiki/entities/event/xxx]]`；修复后生成正确格式 `||| [[slug]] | summary |`
 - **v1.8.6** (2026-05-09): **国内网络 push GitHub 方案固化**: HTTPS 被封时，配置 SSH over 443 + gh auth git-credential，无需 VPN 即可 push。具体步骤固化到 SKILL.md Pitfalls。
 - **v1.8.4** (2026-05-08): **lint.py 修复两处 bug**: ① `find_orphan_pages()` inbound map 构建漏扫 `index.md` 链接（`index.md` 本身不加入 `all_pages`，但其 wikilink 应计入 inbound），导致通过 index.md 入口的概念页面产生误报；② `check_page_size()` 只豁免 `log.md`，未豁免 `log-YYYY-MM.md` 轮转文件，导致历史日志产生 Page Size 误报；两处修复后 lint 全绿
 - **v1.8.3** (2026-05-07): **进化机制 v1**: lint.py --fix 新增 index completeness 自动修复（auto_fix_index_completeness）；新增 log 轮转自动化（auto_fix_log_rotation）；lint.py skip log* 轮转文件（orphan/frontmatter/index_completeness 三处）；修复 post-commit hook 漏扫 log-YYYY-MM.md

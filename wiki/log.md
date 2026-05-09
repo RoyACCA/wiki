@@ -225,3 +225,17 @@ PDF原文存储于 /home/agentuser/temp/papers/
 - wiki page: wiki/entities/event/e220d0d8_2022aviation.md
 - 手动修复 slug: undatedaviation→2022aviation；手动修 index.md auto_fix format bug（第三次触发）
 ## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] lint.py bug fix | auto_fix_index_completeness 两处 bug
+- Bug 1: event 类型 prefix `'||| '` 缺少 `[[`，导致生成 `||| path]]` 格式错误
+- Bug 2: slug 取值 `filepath.replace(wiki_path+'/wiki/','')` 未剥离目录前缀，导致写入 `||| wiki/entities/event/xxx]]`
+- Fix 1: prefix = `'||| [['` (line 243)
+- Fix 2: slug = `os.path.basename(filepath).replace('.md', '')` (line 254)
+- SKILL.md v1.8.5→v1.8.6 | SCHEMA.md v1.8.6→v1.8.7
+- lint --dry-run: 0 HIGH ✓

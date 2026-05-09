@@ -240,7 +240,7 @@ def auto_fix_index_completeness(wiki_path: str, index_issues: list[dict], dry_ru
             prefix = '| [['
         elif 'event' in page_type:
             section = '## Events'
-            prefix = '||| '
+            prefix = '||| [['
         elif 'query' in page_type:
             section = '## Queries'
             prefix = '| [['
@@ -251,7 +251,7 @@ def auto_fix_index_completeness(wiki_path: str, index_issues: list[dict], dry_ru
             section = '## Concepts'
             prefix = '| [['
 
-        slug = filepath.replace('.md', '').replace(wiki_path + '/wiki/', '')
+        slug = os.path.basename(filepath).replace('.md', '')
         new_entry = f"{prefix}{slug}]] | {summary} |"
 
         # Find insertion point: last occurrence of section header or the last entry before next section
