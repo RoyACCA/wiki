@@ -126,3 +126,25 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-08] lint | 0 issues found (auto-fixed: 2)
 
 ## [2026-05-08] ingest | [[9da5d623_china_southern_ai_strategy_report]] 南航深入实施创新驱动与AI赋能战略报告入库（entity-event，slug修正：undatedsasac-caac-ai-aviation-policy → china_southern_ai_strategy_report，修正 title/frontmatter/source/Related/source-link）
+
+## [2026-05-08] ingest | [[e21409fe_china_southern_vs_travelsky_tech_innovation_comparison]] 南航vs航信科技创新对标分析报告入库（comparison）
+
+## [2026-05-08] lint | 1 issues found
+
+## [2026-05-08] lint | 3 issues found (auto-fixed: 2)
+
+## [2026-05-08] lint | 3 issues found
+
+## [2026-05-08] lint | 1 issues found
+
+## [2026-05-08] lint | 1 issues found
+
+## [2026-05-08] lint | 1 issues found
+
+## [2026-05-08] lint | 45 issues found
+
+## [2026-05-08] lint | 45 issues found
+
+## [2026-05-08] lint | 45 issues found
+
+## [2026-05-08] lint | 45 issues found

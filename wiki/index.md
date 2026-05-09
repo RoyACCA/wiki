@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 277 |
+| Last updated: 2026-05-07 | Total pages: 278 |
 
 ## Entities
 
@@ -326,3 +326,4 @@
 ---
 
 *This wiki is maintained by 王趴趴 🐼 for 焦雷 🐯. Structured as a KAG knowledge base.*
+| [[e21409fe_china_southern_vs_travelsky_tech_innovation_comparison]] | 南航 vs 中国航信：科技创新与AI赋能对标分析报告。对标基准：2024-2026年，聚焦科技创新与AI制度建设。来源：[[9da5d623_china_southern_ai_strategy_report]] |
