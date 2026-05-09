@@ -205,3 +205,12 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-09] lint | 2 issues found
 
 ## [2026-05-09] lint | 2 issues found
+
+## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] ingest | 2021年年报 (255 claims, 255 pages)
+- SHA: e84d1bd4 | slug: 2021aviation | domain: aviation
+- method: fitz (text density 52.9%) | claims: 255
+- wiki page: wiki/entities/event/e84d1bd4_2021aviation.md
+- 手动修复 index.md auto_fix bug（||| 格式→标准 ||| 裸slug格式）
+## [2026-05-09] lint | 2 issues found
