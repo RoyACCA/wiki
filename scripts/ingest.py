@@ -104,7 +104,13 @@ def extract_content(file_path: str) -> tuple[str, dict]:
                 text = ""
             else:
                 doc = fitz.open(file_path)
-                for page in doc:
+                # Skip cover page (page 0) if it has < 200 chars (likely a cover with fragmented text)
+                start_page = 0
+                if doc.page_count > 0:
+                    first_page_chars = len(doc[0].get_text())
+                    if first_page_chars < 200:
+                        start_page = 1
+                for page in doc[start_page:]:
                     text += page.get_text()
                 doc.close()
                 meta['method'] = 'fitz'

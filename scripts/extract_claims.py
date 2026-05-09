@@ -37,8 +37,14 @@ def extract_claims_from_text(text: str, file_path: str = "") -> list[dict]:
         "type": "fact" | "policy" | "data" | "analysis"
     }
     """
-    # Split into paragraphs
-    paragraphs = [p.strip() for p in text.split('\n\n') if len(p.strip()) > 20]
+    # Split into paragraphs — use \n[ ]*\n to handle both:
+    # (a) PDF text with lines split by single \n (blank-line separated paragraphs)
+    # (b) Plain text with \n\n double-newline separated paragraphs
+    # \n[ ]*\n matches one or more newlines (with optional spaces), same as \n+ in some flavors
+    # but we want to split only on blank lines, so: \n followed by [0+ spaces] then \n
+    # This splits on \n\n and on \n \n and on \n\n \n alike
+    paragraphs_raw = re.split(r'(?<=\n)[ \t]*(?=\n)', text)
+    paragraphs = [p.strip() for p in paragraphs_raw if len(p.strip()) > 20]
 
     claims = []
     for i, para in enumerate(paragraphs):
