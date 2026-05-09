@@ -22,6 +22,54 @@ def generate_claim_id(text: str, para_index: int) -> str:
     h = hashlib.md5(f"{para_index}:{text[:100]}".encode()).hexdigest()[:8]
     return f"c{h}"
 
+def split_into_paragraphs(text: str) -> list[str]:
+    """
+    Split text into paragraphs using a two-pass strategy:
+    
+    Pass 1: Split on blank lines (\n\n or \n \n)
+    Pass 2: If only 1 paragraph but text is long, split by single \n 
+    This handles both:
+    (a) PDFs with blank-line separated paragraphs (e.g. 2023 annual report)
+    (b) PDFs with single-\n line wrapping and no blank lines (e.g. 2024 annual report)
+    """
+    # Pass 1: split on blank lines
+    paragraphs_raw = re.split(r'(?<=\n)[ \t]*(?=\n)', text)
+    paragraphs_filtered = [p.strip() for p in paragraphs_raw if len(p.strip()) > 20]
+    
+    # Pass 2: if single giant paragraph but text is long, split by single \n
+    # Strategy: group consecutive non-empty lines into paragraphs of ~500 chars
+    if len(paragraphs_filtered) == 1 and len(text) > 1000:
+        lines = text.split('\n')
+        chunks = []
+        current_chunk = []
+        current_len = 0
+        
+        for line in lines:
+            stripped = line.strip()
+            if not stripped:
+                # Blank line = paragraph break
+                if current_chunk:
+                    chunks.append('\n'.join(current_chunk))
+                    current_chunk = []
+                    current_len = 0
+            else:
+                if current_len > 0 and current_len + len(stripped) > 500:
+                    # Start new paragraph
+                    chunks.append(' '.join(current_chunk))
+                    current_chunk = [stripped]
+                    current_len = len(stripped)
+                else:
+                    current_chunk.append(stripped)
+                    current_len += len(stripped)
+        
+        if current_chunk:
+            chunks.append(' '.join(current_chunk))
+        
+        paragraphs_filtered = [c for c in chunks if len(c) > 20]
+    
+    return paragraphs_filtered
+
+
 def extract_claims_from_text(text: str, file_path: str = "") -> list[dict]:
     """
     Extract atomic claims from document text using LLM-style parsing.
@@ -37,14 +85,7 @@ def extract_claims_from_text(text: str, file_path: str = "") -> list[dict]:
         "type": "fact" | "policy" | "data" | "analysis"
     }
     """
-    # Split into paragraphs — use \n[ ]*\n to handle both:
-    # (a) PDF text with lines split by single \n (blank-line separated paragraphs)
-    # (b) Plain text with \n\n double-newline separated paragraphs
-    # \n[ ]*\n matches one or more newlines (with optional spaces), same as \n+ in some flavors
-    # but we want to split only on blank lines, so: \n followed by [0+ spaces] then \n
-    # This splits on \n\n and on \n \n and on \n\n \n alike
-    paragraphs_raw = re.split(r'(?<=\n)[ \t]*(?=\n)', text)
-    paragraphs = [p.strip() for p in paragraphs_raw if len(p.strip()) > 20]
+    paragraphs = split_into_paragraphs(text)
 
     claims = []
     for i, para in enumerate(paragraphs):
