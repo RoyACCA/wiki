@@ -97,6 +97,11 @@ def extract_version_info(filename: str) -> str:
             parts.append(m.group(0))
     return '_'.join(parts) if parts else ''
 
+def chinese_to_arabic(cn: str) -> str:
+    """Convert Chinese numerals to ASCII digits (e.g. '二零二四' -> '2024')."""
+    mapping = {'零':'0','一':'1','二':'2','三':'3','四':'4','五':'5','六':'6','七':'7','八':'8','九':'9'}
+    return ''.join(mapping.get(c, c) for c in cn)
+
 def generate_slug(file_path: str, content_preview: str, domains: list[str] = None) -> str:
     """Generate a semantic English slug from file content and domains."""
     # Extract entities from content
@@ -104,10 +109,6 @@ def generate_slug(file_path: str, content_preview: str, domains: list[str] = Non
 
     # Detect domains
     detected_domains = detect_domains(content_preview[:1000]) if not domains else domains
-
-    # Deduplicate while preserving order
-    entities = list(dict.fromkeys(entities))
-    detected_domains = list(dict.fromkeys(detected_domains))
 
     # Build slug parts
     slug_parts = []
@@ -124,16 +125,25 @@ def generate_slug(file_path: str, content_preview: str, domains: list[str] = Non
     if version:
         slug_parts.append(version)
 
-    # Deduplicate final slug parts
-    slug_parts = list(dict.fromkeys(slug_parts))
-
     # Clean and join
     if not slug_parts:
         return "unknown"
 
     # Generate year from content or use placeholder
-    year_match = re.search(r'20\d{2}', content_preview[:200])
-    year = year_match.group(0) if year_match else "undated"
+    # Check ASCII first (e.g. "2024")
+    year_match = re.search(r'20\d{2}', content_preview[:2000])
+    if not year_match:
+        # Check Chinese numerals (e.g. "二零二四", "二零二四年")
+        # Find ALL matches and take the largest (report year > registration year)
+        all_matches = re.findall(r'二零[零一二三四五六七八九]{2}年?', content_preview[:2000])
+        if all_matches:
+            # Convert to Arabic and take the maximum
+            years_arabic = [chinese_to_arabic(m.rstrip('年')) for m in all_matches]
+            year = max(years_arabic, key=int)
+        else:
+            year = "undated"
+    else:
+        year = year_match.group(0)
 
     slug = f"{year}_{'-'.join(slug_parts)}"
     # Clean: only alphanum and hyphens
@@ -159,18 +169,19 @@ def main():
         elif ext == '.pdf':
             import fitz
             doc = fitz.open(file_path)
-            for page in doc[:3]:
-                content_preview += page.get_text()
+            for page in doc:
+                text = page.get_text()
+                # Skip pages with <500 chars — likely garbled cover pages or empty pages
+                if len(text) >= 500:
+                    content_preview += text
+                if len(content_preview) >= 2000:
+                    break
             doc.close()
         elif ext == '.docx':
             from docx import Document
             doc = Document(file_path)
             for para in doc.paragraphs[:20]:
                 content_preview += para.text + '\n'
-        elif ext == '':
-            # Extensionless text files (e.g., Chinese news dumps)
-            with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
-                content_preview = f.read(2000)
         else:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 content_preview = f.read(500)
