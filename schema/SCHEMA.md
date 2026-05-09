@@ -1,6 +1,7 @@
-# Wiki Schema — LLM Wiki v1.8.8
+# Wiki Schema — LLM Wiki v1.8.9
 
 ## Version
+- **v1.8.9** (2026-05-09): **Bug fix**: extract_claims.py 新增 split_into_paragraphs() 两段式分段（Pass1空白行分割，Pass2单\n分割+500字符聚合），解决2024年报PDF全文无空白行导致只提取1条claim的问题；修复后2024年报入库获18条claims
 - **v1.8.8** (2026-05-09): **Bug fix**: ingest.py PDF提取跳过第0页封面（<200字符检测）；extract_claims.py 分词从 `\n\n` 改为空白行检测（`(?<=\n)[ \t]*(?=\n)`），解决年报类PDF无段落分隔问题；修复后2023年报入库获438条claims
 - **v1.8.7** (2026-05-09): **Bug fix**: lint.py `auto_fix_index_completeness()` 两处 bug：① event 类型 prefix 缺少 `[[`，导致生成 `||| path]]`；② slug 取值未剥离目录前缀，导致写入 `||| wiki/entities/event/xxx]]`；修复后生成正确格式 `||| [[slug]] | summary |`
 - **v1.8.6** (2026-05-09): **国内网络 push GitHub 方案固化**: HTTPS 被封时，配置 SSH over 443 + gh auth git-credential，无需 VPN 即可 push。具体步骤固化到 SKILL.md Pitfalls。
