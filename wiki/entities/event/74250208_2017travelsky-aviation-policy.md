@@ -82,9 +82,9 @@ claims: [{"id": "cb27b4a49", "text": "这份文档是**中国民航信息网络�
 
 ## Related
 - Sources: [[../raw/docs/74250208_2017travelsky-aviation-policy.md]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 

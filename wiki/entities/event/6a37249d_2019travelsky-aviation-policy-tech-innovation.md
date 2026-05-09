@@ -93,9 +93,9 @@ claims: [{"id": "c7ba0b7d6", "text": "这份文档是**中国民航信息网络�
 
 ## Related
 - Sources: [[../raw/docs/6a37249d_2019travelsky-aviation-policy-tech-innovation.md]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
 - Concepts: [[concept_tech_innovation]]

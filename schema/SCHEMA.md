@@ -1,6 +1,7 @@
-# Wiki Schema — LLM Wiki v1.8.4
+# Wiki Schema — LLM Wiki v1.8.5
 
 ## Version
+- **v1.8.5** (2026-05-09): **lint.py bug fix**: `auto_fix_index_completeness()` 第242行，`'event'` 类型错误映射到 `'### company'`，应为 `'## Events'`；入库年报（2015-2019）触发此 bug；同步修复 index.md 链接格式（`wiki/entities/event/xxx` → 裸 slug）
 - **v1.8.4** (2026-05-08): **lint.py 修复两处 bug**: ① `find_orphan_pages()` inbound map 构建漏扫 `index.md` 链接（`index.md` 本身不加入 `all_pages`，但其 wikilink 应计入 inbound），导致通过 index.md 入口的概念页面产生误报；② `check_page_size()` 只豁免 `log.md`，未豁免 `log-YYYY-MM.md` 轮转文件，导致历史日志产生 Page Size 误报；两处修复后 lint 全绿
 - **v1.8.3** (2026-05-07): **进化机制 v1**: lint.py --fix 新增 index completeness 自动修复（auto_fix_index_completeness）；新增 log 轮转自动化（auto_fix_log_rotation）；lint.py skip log* 轮转文件（orphan/frontmatter/index_completeness 三处）；修复 post-commit hook 漏扫 log-YYYY-MM.md
 - **v1.8.2** (2026-05-07): **Fix orphan pages false positive**: lint.py skip_types 新增 `'company'`，entity-company 类型页面不再产生 orphan 告警；迁移 00cbbaec_2025travelsky-aviation.md（company→event），修复 broken link 历史遗留问题
@@ -342,6 +343,9 @@ concept-aitransportationimplementation: concept-aitransportpolicy
 ---
 
 # Schema Version
+
+## v1.8.5 (2026-05-09)
+Changes from v1.8.4: **Bug fix**: `auto_fix_index_completeness()` 第242行，`'event'` 类型错误映射到 `'### company'`，应为 `'## Events'`
 
 ## v1.6.0 (2026-05-06)
 Changes from v1.5.9: `estimate_confidence()` 去除对元数据字段（发布时间/浏览量）的误扣分，短新闻稿不再误入 review；`detect_page_type()` 新增"获批/入选/荣获/获颁/首次"等事件关键词，避免被"公司"规则误判为 entity-company

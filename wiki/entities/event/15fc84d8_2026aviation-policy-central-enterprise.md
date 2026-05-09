@@ -75,7 +75,7 @@ claims: [{"id": "cae606941", "text": "【宏观】一季度我国服务进出口
 - Entities: [[entity_sasac]]
 - Concepts: [[concept_aviation]]
 - Concepts: [[concept_policy]]
-- Concepts: [[concept_central_enterprise]]
+- Concepts: [[concept_aviation]]
 
 ## Provenance
 > [!source]| cae606941

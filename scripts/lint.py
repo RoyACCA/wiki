@@ -239,8 +239,8 @@ def auto_fix_index_completeness(wiki_path: str, index_issues: list[dict], dry_ru
             section = '### paper'
             prefix = '| [['
         elif 'event' in page_type:
-            section = '### company'
-            prefix = '| [['
+            section = '## Events'
+            prefix = '||| '
         elif 'query' in page_type:
             section = '## Queries'
             prefix = '| [['

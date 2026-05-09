@@ -89,8 +89,8 @@ claims: [{"id": "c1eda4181", "text": "这份文档是**中国民航信息网络�
 
 ## Related
 - Sources: [[../raw/docs/dac5ed14_2015travelsky-aviation.md]]
-- Entities: [[entity_travelsky]]
-- Entities: [[entity_travelsky]]
+- Entities: [[entity_company_travelsky]]
+- Entities: [[entity_company_travelsky]]
 - Concepts: [[concept_aviation]]
 
 ## Provenance

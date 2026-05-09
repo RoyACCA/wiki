@@ -1,5 +1,18 @@
 # Wiki Changelog
 
+## [2026-05-09] update | llm-wiki skill 1.8.4→1.8.5
+- Bug fix: lint.py 第242行 `'event'` 类型错误映射到 `'### company'`，应为 `'## Events'`
+- 同步更新 SKILL.md（version + changelog）+ SCHEMA.md（version + changelog）
+- 操作顺序：①修lint.py → ②SKILL.md version+changelog → ③SCHEMA.md version+changelog → ④log.md
+
+## [2026-05-09] ingest | 中国航信年报（2015-2019）
+- 批量入库5个年报：dac5ed14_2015travelsky-aviation, 2d7ff618_2016travelsky-aviation-policy, 74250208_2017travelsky-aviation-policy, 340038ec_2018travelsky-aviation-policy, 6a37249d_2019travelsky-aviation-policy-tech-innovation
+- raw/docs/ 入库，wiki page type: entity-event，domains: aviation/policy/tech-innovation
+- 无冲突，无重复，claim_types: policy/data/fact/analysis
+- 修复 index.md: event类型条目被误归company区（lint auto_fix分类bug）+ 链接格式wiki/xxx/xxx修复为裸slug
+- QA: lint 0 HIGH ✅
+
+
 > Chronological action log. Every ingest, update, and structural change recorded.
 > Format: `## [YYYY-MM-DD] Action | Details`
 
@@ -160,3 +173,15 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-09] lint | 4 issues found
 
 ## [2026-05-09] lint | 5 issues found
+
+## [2026-05-09] lint | 6 issues found
+
+## [2026-05-09] lint | 6 issues found
+
+## [2026-05-09] lint | 6 issues found
+
+## [2026-05-09] lint | 0 issues found (auto-fixed: 14)
+
+## [2026-05-09] lint | 6 issues found
+
+## [2026-05-09] lint | 6 issues found
