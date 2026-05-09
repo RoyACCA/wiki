@@ -191,3 +191,13 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-09] lint | 2 issues found
 
 ## [2026-05-09] lint | 1 issues found
+
+## [2026-05-09] lint | 2 issues found
+
+## [2026-05-09] lint | 2 issues found
+## [2026-05-09] ingest | 2020年年报 (303 claims, 303 pages)
+- SHA: 4123fd78 | slug: 2020aviation | domain: aviation
+- method: fitz (text density 47.7%) | claims: 303
+- wiki page: wiki/entities/event/4123fd78_2020aviation.md
+- commit: 685a899
+
