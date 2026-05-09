@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 286 |
+| Last updated: 2026-05-07 | Total pages: 288 |
 
 ## Entities
 
@@ -323,6 +323,7 @@
 ||| [[e84d1bd4_2021aviation]] | 中国航信2021年年报（繁体）：公司介绍、业务回顾、财务业绩、董事会报告、审计报告等 |
 
 ||| [[e220d0d8_2022aviation]] | 中国航信2022年年报（繁体）：公司简介、业务回顾、财务业绩、董事会报告、审计报告等 |
+||| [[f4b1c8b0_2023aviation]] | 中國民航信息網絡股份有限公司（「本公司」連同附屬公司合稱「本集團」）是中國航空旅。遊業信息技術解決方案的主導供應商，一直致力於開發先進的產品及服務，滿足所有行。業參與者（從商營航空公司、機場、航空旅遊產品和服務供應商到旅遊分銷代理人、機。 |
 ## Queries
 
 || File | Summary ||
