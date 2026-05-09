@@ -216,3 +216,12 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-09] lint | 2 issues found
 
 ## [2026-05-09] lint | 2 issues found
+
+## [2026-05-09] lint | 3 issues found
+
+## [2026-05-09] ingest | 2022年年报 (265 claims, 267 pages)
+- SHA: e220d0d8 | slug: 2022aviation | domain: aviation
+- method: fitz (text density 50.3%) | claims: 265
+- wiki page: wiki/entities/event/e220d0d8_2022aviation.md
+- 手动修复 slug: undatedaviation→2022aviation；手动修 index.md auto_fix format bug（第三次触发）
+## [2026-05-09] lint | 3 issues found

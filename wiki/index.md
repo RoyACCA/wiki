@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-| Last updated: 2026-05-07 | Total pages: 284 |
+| Last updated: 2026-05-07 | Total pages: 286 |
 
 ## Entities
 
@@ -322,6 +322,7 @@
 ||| [[4123fd78_2020aviation]] | 中国航信2020年年报：H股代号00696，主营航空信息技术服务、分销信息技术服务、航空结算及清算服务 |
 ||| [[e84d1bd4_2021aviation]] | 中国航信2021年年报（繁体）：公司介绍、业务回顾、财务业绩、董事会报告、审计报告等 |
 
+||| [[e220d0d8_2022aviation]] | 中国航信2022年年报（繁体）：公司简介、业务回顾、财务业绩、董事会报告、审计报告等 |
 ## Queries
 
 || File | Summary ||
