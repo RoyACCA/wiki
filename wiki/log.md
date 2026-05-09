@@ -233,9 +233,15 @@ PDF原文存储于 /home/agentuser/temp/papers/
 ## [2026-05-09] lint | 3 issues found
 
 ## [2026-05-09] lint.py bug fix | auto_fix_index_completeness 两处 bug
-- Bug 1: event 类型 prefix `'||| '` 缺少 `[[`，导致生成 `||| path]]` 格式错误
-- Bug 2: slug 取值 `filepath.replace(wiki_path+'/wiki/','')` 未剥离目录前缀，导致写入 `||| wiki/entities/event/xxx]]`
+- Bug 1: event 类型 prefix 缺少左括号，生成错误格式（三竖线后直接是路径）
+- Bug 2: slug 取值未剥离目录前缀，导致写入 wiki/entities/event/xxx
 - Fix 1: prefix = `'||| [['` (line 243)
 - Fix 2: slug = `os.path.basename(filepath).replace('.md', '')` (line 254)
 - SKILL.md v1.8.5→v1.8.6 | SCHEMA.md v1.8.6→v1.8.7
 - lint --dry-run: 0 HIGH ✓
+
+## [2026-05-09] lint | 4 issues found
+
+## [2026-05-09] lint | 4 issues found
+
+## [2026-05-09] lint | 3 issues found
